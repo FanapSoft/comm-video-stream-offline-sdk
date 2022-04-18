@@ -1,9 +1,4 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
-window.PodChat = require('./src/index.js');
-
-},{"./src/index.js":8}],2:[function(require,module,exports){
-module.exports={"v":"5.7.12","fr":60,"ip":0,"op":80,"w":800,"h":800,"nm":"infinityLoop","ddd":0,"assets":[{"id":"comp_0","nm":"Comp 1","layers":[{"ddd":0,"ind":1,"ty":4,"nm":"Shape Layer 6","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[540,540,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-54.088,-54.088],[0,0],[54.088,-54.088],[0,0],[54.087,54.088],[0,0],[54.088,-54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0]],"o":[[0,0],[54.087,-54.088],[0,0],[54.088,54.088],[0,0],[-54.088,54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0],[54.088,54.088],[0,0],[0,0]],"v":[[0.931,-0.931],[97.934,-97.934],[293.803,-97.934],[293.803,-97.934],[293.803,97.934],[293.803,97.934],[97.934,97.934],[-97.934,-97.934],[-293.803,-97.934],[-293.803,-97.934],[-293.803,97.934],[-293.803,97.934],[-97.934,97.934],[-0.993,0.993]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"tm","s":{"a":0,"k":60,"ix":1},"e":{"a":0,"k":75,"ix":2},"o":{"a":1,"k":[{"i":{"x":[0.391],"y":[1]},"o":{"x":[0.362],"y":[0]},"t":0,"s":[180]},{"t":80,"s":[540]}],"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"st","c":{"a":0,"k":[1,0.9372549019607843,0.21176470588235294,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":50,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":120.12109375,"st":0,"bm":0},{"ddd":0,"ind":2,"ty":4,"nm":"Shape Layer 1","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[540,540,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-54.088,-54.088],[0,0],[54.088,-54.088],[0,0],[54.087,54.088],[0,0],[54.088,-54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0]],"o":[[0,0],[54.087,-54.088],[0,0],[54.088,54.088],[0,0],[-54.088,54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0],[54.088,54.088],[0,0],[0,0]],"v":[[0.931,-0.931],[97.934,-97.934],[293.803,-97.934],[293.803,-97.934],[293.803,97.934],[293.803,97.934],[97.934,97.934],[-97.934,-97.934],[-293.803,-97.934],[-293.803,-97.934],[-293.803,97.934],[-293.803,97.934],[-97.934,97.934],[-0.993,0.993]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"tm","s":{"a":0,"k":70,"ix":1},"e":{"a":0,"k":80,"ix":2},"o":{"a":1,"k":[{"i":{"x":[0.391],"y":[1]},"o":{"x":[0.362],"y":[0]},"t":0,"s":[180]},{"t":80,"s":[540]}],"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"st","c":{"a":0,"k":[1,0.681799316406,0.180392141903,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":50,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":122.12109375,"st":2,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"Shape Layer 3","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[540,540,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-54.088,-54.088],[0,0],[54.088,-54.088],[0,0],[54.087,54.088],[0,0],[54.088,-54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0]],"o":[[0,0],[54.087,-54.088],[0,0],[54.088,54.088],[0,0],[-54.088,54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0],[54.088,54.088],[0,0],[0,0]],"v":[[0.931,-0.931],[97.934,-97.934],[293.803,-97.934],[293.803,-97.934],[293.803,97.934],[293.803,97.934],[97.934,97.934],[-97.934,-97.934],[-293.803,-97.934],[-293.803,-97.934],[-293.803,97.934],[-293.803,97.934],[-97.934,97.934],[-0.993,0.993]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"tm","s":{"a":0,"k":70,"ix":1},"e":{"a":0,"k":85,"ix":2},"o":{"a":1,"k":[{"i":{"x":[0.391],"y":[1]},"o":{"x":[0.362],"y":[0]},"t":0,"s":[180]},{"t":80,"s":[540]}],"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"st","c":{"a":0,"k":[1,0.28627450980392155,0.26666666666666666,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":50,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":124.12109375,"st":4,"bm":0},{"ddd":0,"ind":4,"ty":4,"nm":"Shape Layer 4","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[540,540,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-54.088,-54.088],[0,0],[54.088,-54.088],[0,0],[54.087,54.088],[0,0],[54.088,-54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0]],"o":[[0,0],[54.087,-54.088],[0,0],[54.088,54.088],[0,0],[-54.088,54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0],[54.088,54.088],[0,0],[0,0]],"v":[[0.931,-0.931],[97.934,-97.934],[293.803,-97.934],[293.803,-97.934],[293.803,97.934],[293.803,97.934],[97.934,97.934],[-97.934,-97.934],[-293.803,-97.934],[-293.803,-97.934],[-293.803,97.934],[-293.803,97.934],[-97.934,97.934],[-0.993,0.993]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"tm","s":{"a":0,"k":70,"ix":1},"e":{"a":0,"k":90,"ix":2},"o":{"a":1,"k":[{"i":{"x":[0.391],"y":[1]},"o":{"x":[0.362],"y":[0]},"t":0,"s":[180]},{"t":80,"s":[540]}],"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"st","c":{"a":0,"k":[1,0.20784313725490197,0.7215686274509804,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":50,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":126.12109375,"st":6,"bm":0},{"ddd":0,"ind":5,"ty":4,"nm":"Shape Layer 5","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[540,540,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-54.088,-54.088],[0,0],[54.088,-54.088],[0,0],[54.087,54.088],[0,0],[54.088,-54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0]],"o":[[0,0],[54.087,-54.088],[0,0],[54.088,54.088],[0,0],[-54.088,54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0],[54.088,54.088],[0,0],[0,0]],"v":[[0.931,-0.931],[97.934,-97.934],[293.803,-97.934],[293.803,-97.934],[293.803,97.934],[293.803,97.934],[97.934,97.934],[-97.934,-97.934],[-293.803,-97.934],[-293.803,-97.934],[-293.803,97.934],[-293.803,97.934],[-97.934,97.934],[-0.993,0.993]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"tm","s":{"a":0,"k":70,"ix":1},"e":{"a":0,"k":95,"ix":2},"o":{"a":1,"k":[{"i":{"x":[0.391],"y":[1]},"o":{"x":[0.362],"y":[0]},"t":0,"s":[180]},{"t":80,"s":[540]}],"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"st","c":{"a":0,"k":[0.3568627450980392,0.2549019607843137,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":50,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"st","c":{"a":0,"k":[0.3568627450980392,0.2549019607843137,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":50,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 2","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":4,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":128.12109375,"st":8,"bm":0},{"ddd":0,"ind":6,"ty":4,"nm":"Shape Layer 2","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[540,540,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-54.088,-54.088],[0,0],[54.088,-54.088],[0,0],[54.087,54.088],[0,0],[54.088,-54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0]],"o":[[0,0],[54.087,-54.088],[0,0],[54.088,54.088],[0,0],[-54.088,54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0],[54.088,54.088],[0,0],[0,0]],"v":[[0.931,-0.931],[97.934,-97.934],[293.803,-97.934],[293.803,-97.934],[293.803,97.934],[293.803,97.934],[97.934,97.934],[-97.934,-97.934],[-293.803,-97.934],[-293.803,-97.934],[-293.803,97.934],[-293.803,97.934],[-97.934,97.934],[-0.993,0.993]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"tm","s":{"a":0,"k":70,"ix":1},"e":{"a":0,"k":100,"ix":2},"o":{"a":1,"k":[{"i":{"x":[0.391],"y":[1]},"o":{"x":[0.362],"y":[0]},"t":0,"s":[180]},{"t":80,"s":[540]}],"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"st","c":{"a":0,"k":[0.3137254901960784,0.8901960784313725,0.7607843137254902,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":50,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"st","c":{"a":0,"k":[0.3137254901960784,0.8901960784313725,0.7607843137254902,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":50,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 2","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":4,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":130.12109375,"st":10,"bm":0}]}],"layers":[{"ddd":0,"ind":1,"ty":4,"nm":"line 2","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[400,400,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[59.849,59.85],[59.85,-59.85],[0,0],[0,0],[59.85,-59.851],[-59.85,-59.85],[-39.308,0],[-29.925,29.925],[0,0],[0,0],[-59.849,59.848]],"o":[[-59.849,-59.85],[0,0],[0,0],[-59.849,-59.849],[-59.85,59.85],[29.925,29.925],[39.308,0],[0,0],[0,0],[59.85,59.85],[59.849,-59.85]],"v":[[304.41,-108.541],[87.328,-108.541],[0.001,-21.212],[-87.328,-108.541],[-304.409,-108.54],[-304.409,108.542],[-195.868,153.428],[-87.328,108.542],[0.001,21.214],[87.328,108.542],[304.41,108.542]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"tm","s":{"a":0,"k":0,"ix":1},"e":{"a":0,"k":5,"ix":2},"o":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[90]},{"t":80,"s":[450]}],"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":10,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":81,"st":0,"bm":0},{"ddd":0,"ind":2,"ty":4,"nm":"line","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[400,400,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[59.849,59.85],[59.85,-59.85],[0,0],[0,0],[59.85,-59.851],[-59.85,-59.85],[-39.308,0],[-29.925,29.925],[0,0],[0,0],[-59.849,59.848]],"o":[[-59.849,-59.85],[0,0],[0,0],[-59.849,-59.849],[-59.85,59.85],[29.925,29.925],[39.308,0],[0,0],[0,0],[59.85,59.85],[59.849,-59.85]],"v":[[304.41,-108.541],[87.328,-108.541],[0.001,-21.212],[-87.328,-108.541],[-304.409,-108.54],[-304.409,108.542],[-195.868,153.428],[-87.328,108.542],[0.001,21.214],[87.328,108.542],[304.41,108.542]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"tm","s":{"a":0,"k":0,"ix":1},"e":{"a":0,"k":5,"ix":2},"o":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0]},{"t":80,"s":[360]}],"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":10,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":81,"st":0,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"Shape Layer 3","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[400,400,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"d":1,"ty":"el","s":{"a":0,"k":[50,50],"ix":2},"p":{"a":0,"k":[0,0],"ix":3},"nm":"Ellipse Path 1","mn":"ADBE Vector Shape - Ellipse","hd":false},{"ty":"fl","c":{"a":0,"k":[0.298039227724,0.298039227724,0.298039227724,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Ellipse 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":81,"st":0,"bm":0},{"ddd":0,"ind":4,"ty":4,"nm":"Shape Layer 1","td":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[362.958,402,0],"ix":2,"l":2},"a":{"a":0,"k":[-173.042,0,0],"ix":1,"l":2},"s":{"a":0,"k":[120,120,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-54.088,-54.088],[0,0],[54.088,-54.088],[0,0],[54.088,54.087]],"o":[[0,0],[54.088,-54.088],[0,0],[54.088,54.088],[0,0],[-54.088,54.087],[0,0]],"v":[[-173.042,-1.806],[-76.914,-97.934],[118.955,-97.934],[118.955,-97.934],[118.955,97.934],[118.955,97.934],[-76.914,97.934]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.847059011459,0.117646999657,0.22352899611,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":81,"st":0,"bm":0},{"ddd":0,"ind":5,"ty":0,"nm":"Comp 1","tt":1,"refId":"comp_0","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[400,400,0],"ix":2,"l":2},"a":{"a":0,"k":[540,540,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"w":1080,"h":1080,"ip":0,"op":81,"st":0,"bm":0},{"ddd":0,"ind":6,"ty":4,"nm":"Shape Layer 2","td":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":180,"ix":10},"p":{"a":0,"k":[435.958,399,0],"ix":2,"l":2},"a":{"a":0,"k":[-173.042,0,0],"ix":1,"l":2},"s":{"a":0,"k":[120,120,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-54.088,-54.088],[0,0],[54.088,-54.088],[0,0],[54.088,54.087]],"o":[[0,0],[54.088,-54.088],[0,0],[54.088,54.088],[0,0],[-54.088,54.087],[0,0]],"v":[[-173.042,-1.806],[-76.914,-97.934],[118.955,-97.934],[118.955,-97.934],[118.955,97.934],[118.955,97.934],[-76.914,97.934]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.847059011459,0.117646999657,0.22352899611,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":81,"st":0,"bm":0},{"ddd":0,"ind":7,"ty":0,"nm":"Comp 1","tt":1,"refId":"comp_0","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":180,"ix":10},"p":{"a":0,"k":[400,400,0],"ix":2,"l":2},"a":{"a":0,"k":[540,540,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"w":1080,"h":1080,"ip":0,"op":81,"st":0,"bm":0}],"markers":[]}
-},{}],3:[function(require,module,exports){
 (function (global){(function (){
 !function(t,e){"object"==typeof exports&&"undefined"!=typeof module?e(exports):"function"==typeof define&&define.amd?define(["exports"],e):e((t="undefined"!=typeof globalThis?globalThis:t||self)["lottie-player"]={})}(this,(function(exports){"use strict";function _asyncIterator(t){var e,r,i,s=2;for("undefined"!=typeof Symbol&&(r=Symbol.asyncIterator,i=Symbol.iterator);s--;){if(r&&null!=(e=t[r]))return e.call(t);if(i&&null!=(e=t[i]))return new AsyncFromSyncIterator(e.call(t));r="@@asyncIterator",i="@@iterator"}throw new TypeError("Object is not async iterable")}function AsyncFromSyncIterator(t){function e(t){if(Object(t)!==t)return Promise.reject(new TypeError(t+" is not an object."));var e=t.done;return Promise.resolve(t.value).then((function(t){return{value:t,done:e}}))}return AsyncFromSyncIterator=function(t){this.s=t,this.n=t.next},AsyncFromSyncIterator.prototype={s:null,n:null,next:function(){return e(this.n.apply(this.s,arguments))},return:function(t){var r=this.s.return;return void 0===r?Promise.resolve({value:t,done:!0}):e(r.apply(this.s,arguments))},throw:function(t){var r=this.s.return;return void 0===r?Promise.reject(t):e(r.apply(this.s,arguments))}},new AsyncFromSyncIterator(t)}var REACT_ELEMENT_TYPE;function _jsx(t,e,r,i){REACT_ELEMENT_TYPE||(REACT_ELEMENT_TYPE="function"==typeof Symbol&&Symbol.for&&Symbol.for("react.element")||60103);var s=t&&t.defaultProps,a=arguments.length-3;if(e||0===a||(e={children:void 0}),1===a)e.children=i;else if(a>1){for(var n=new Array(a),o=0;o<a;o++)n[o]=arguments[o+3];e.children=n}if(e&&s)for(var h in s)void 0===e[h]&&(e[h]=s[h]);else e||(e=s||{});return{$$typeof:REACT_ELEMENT_TYPE,type:t,key:void 0===r?null:""+r,ref:null,props:e,_owner:null}}function ownKeys(t,e){var r=Object.keys(t);if(Object.getOwnPropertySymbols){var i=Object.getOwnPropertySymbols(t);e&&(i=i.filter((function(e){return Object.getOwnPropertyDescriptor(t,e).enumerable}))),r.push.apply(r,i)}return r}function _objectSpread2(t){for(var e=1;e<arguments.length;e++){var r=null!=arguments[e]?arguments[e]:{};e%2?ownKeys(Object(r),!0).forEach((function(e){_defineProperty(t,e,r[e])})):Object.getOwnPropertyDescriptors?Object.defineProperties(t,Object.getOwnPropertyDescriptors(r)):ownKeys(Object(r)).forEach((function(e){Object.defineProperty(t,e,Object.getOwnPropertyDescriptor(r,e))}))}return t}function _typeof(t){return _typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},_typeof(t)}function _wrapRegExp(){_wrapRegExp=function(t,e){return new r(t,void 0,e)};var t=RegExp.prototype,e=new WeakMap;function r(t,i,s){var a=new RegExp(t,i);return e.set(a,s||e.get(t)),_setPrototypeOf(a,r.prototype)}function i(t,r){var i=e.get(r);return Object.keys(i).reduce((function(e,r){return e[r]=t[i[r]],e}),Object.create(null))}return _inherits(r,RegExp),r.prototype.exec=function(e){var r=t.exec.call(this,e);return r&&(r.groups=i(r,this)),r},r.prototype[Symbol.replace]=function(r,s){if("string"==typeof s){var a=e.get(this);return t[Symbol.replace].call(this,r,s.replace(/\$<([^>]+)>/g,(function(t,e){return"$"+a[e]})))}if("function"==typeof s){var n=this;return t[Symbol.replace].call(this,r,(function(){var t=arguments;return"object"!=typeof t[t.length-1]&&(t=[].slice.call(t)).push(i(t,n)),s.apply(this,t)}))}return t[Symbol.replace].call(this,r,s)},_wrapRegExp.apply(this,arguments)}function _AwaitValue(t){this.wrapped=t}function _AsyncGenerator(t){var e,r;function i(e,r){try{var a=t[e](r),n=a.value,o=n instanceof _AwaitValue;Promise.resolve(o?n.wrapped:n).then((function(t){o?i("return"===e?"return":"next",t):s(a.done?"return":"normal",t)}),(function(t){i("throw",t)}))}catch(t){s("throw",t)}}function s(t,s){switch(t){case"return":e.resolve({value:s,done:!0});break;case"throw":e.reject(s);break;default:e.resolve({value:s,done:!1})}(e=e.next)?i(e.key,e.arg):r=null}this._invoke=function(t,s){return new Promise((function(a,n){var o={key:t,arg:s,resolve:a,reject:n,next:null};r?r=r.next=o:(e=r=o,i(t,s))}))},"function"!=typeof t.return&&(this.return=void 0)}function _wrapAsyncGenerator(t){return function(){return new _AsyncGenerator(t.apply(this,arguments))}}function _awaitAsyncGenerator(t){return new _AwaitValue(t)}function _asyncGeneratorDelegate(t,e){var r={},i=!1;function s(r,s){return i=!0,s=new Promise((function(e){e(t[r](s))})),{done:!1,value:e(s)}}return r["undefined"!=typeof Symbol&&Symbol.iterator||"@@iterator"]=function(){return this},r.next=function(t){return i?(i=!1,t):s("next",t)},"function"==typeof t.throw&&(r.throw=function(t){if(i)throw i=!1,t;return s("throw",t)}),"function"==typeof t.return&&(r.return=function(t){return i?(i=!1,t):s("return",t)}),r}function asyncGeneratorStep(t,e,r,i,s,a,n){try{var o=t[a](n),h=o.value}catch(t){return void r(t)}o.done?e(h):Promise.resolve(h).then(i,s)}function _asyncToGenerator(t){return function(){var e=this,r=arguments;return new Promise((function(i,s){var a=t.apply(e,r);function n(t){asyncGeneratorStep(a,i,s,n,o,"next",t)}function o(t){asyncGeneratorStep(a,i,s,n,o,"throw",t)}n(void 0)}))}}function _classCallCheck(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}function _defineProperties(t,e){for(var r=0;r<e.length;r++){var i=e[r];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(t,i.key,i)}}function _createClass(t,e,r){return e&&_defineProperties(t.prototype,e),r&&_defineProperties(t,r),Object.defineProperty(t,"prototype",{writable:!1}),t}function _defineEnumerableProperties(t,e){for(var r in e){(a=e[r]).configurable=a.enumerable=!0,"value"in a&&(a.writable=!0),Object.defineProperty(t,r,a)}if(Object.getOwnPropertySymbols)for(var i=Object.getOwnPropertySymbols(e),s=0;s<i.length;s++){var a,n=i[s];(a=e[n]).configurable=a.enumerable=!0,"value"in a&&(a.writable=!0),Object.defineProperty(t,n,a)}return t}function _defaults(t,e){for(var r=Object.getOwnPropertyNames(e),i=0;i<r.length;i++){var s=r[i],a=Object.getOwnPropertyDescriptor(e,s);a&&a.configurable&&void 0===t[s]&&Object.defineProperty(t,s,a)}return t}function _defineProperty(t,e,r){return e in t?Object.defineProperty(t,e,{value:r,enumerable:!0,configurable:!0,writable:!0}):t[e]=r,t}function _extends(){return _extends=Object.assign||function(t){for(var e=1;e<arguments.length;e++){var r=arguments[e];for(var i in r)Object.prototype.hasOwnProperty.call(r,i)&&(t[i]=r[i])}return t},_extends.apply(this,arguments)}function _objectSpread(t){for(var e=1;e<arguments.length;e++){var r=null!=arguments[e]?Object(arguments[e]):{},i=Object.keys(r);"function"==typeof Object.getOwnPropertySymbols&&i.push.apply(i,Object.getOwnPropertySymbols(r).filter((function(t){return Object.getOwnPropertyDescriptor(r,t).enumerable}))),i.forEach((function(e){_defineProperty(t,e,r[e])}))}return t}function _inherits(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function");t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,writable:!0,configurable:!0}}),Object.defineProperty(t,"prototype",{writable:!1}),e&&_setPrototypeOf(t,e)}function _inheritsLoose(t,e){t.prototype=Object.create(e.prototype),t.prototype.constructor=t,_setPrototypeOf(t,e)}function _getPrototypeOf(t){return _getPrototypeOf=Object.setPrototypeOf?Object.getPrototypeOf:function(t){return t.__proto__||Object.getPrototypeOf(t)},_getPrototypeOf(t)}function _setPrototypeOf(t,e){return _setPrototypeOf=Object.setPrototypeOf||function(t,e){return t.__proto__=e,t},_setPrototypeOf(t,e)}function _isNativeReflectConstruct(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){}))),!0}catch(t){return!1}}function _construct(t,e,r){return _construct=_isNativeReflectConstruct()?Reflect.construct:function(t,e,r){var i=[null];i.push.apply(i,e);var s=new(Function.bind.apply(t,i));return r&&_setPrototypeOf(s,r.prototype),s},_construct.apply(null,arguments)}function _isNativeFunction(t){return-1!==Function.toString.call(t).indexOf("[native code]")}function _wrapNativeSuper(t){var e="function"==typeof Map?new Map:void 0;return _wrapNativeSuper=function(t){if(null===t||!_isNativeFunction(t))return t;if("function"!=typeof t)throw new TypeError("Super expression must either be null or a function");if(void 0!==e){if(e.has(t))return e.get(t);e.set(t,r)}function r(){return _construct(t,arguments,_getPrototypeOf(this).constructor)}return r.prototype=Object.create(t.prototype,{constructor:{value:r,enumerable:!1,writable:!0,configurable:!0}}),_setPrototypeOf(r,t)},_wrapNativeSuper(t)}function _instanceof(t,e){return null!=e&&"undefined"!=typeof Symbol&&e[Symbol.hasInstance]?!!e[Symbol.hasInstance](t):t instanceof e}function _interopRequireDefault(t){return t&&t.__esModule?t:{default:t}}function _getRequireWildcardCache(t){if("function"!=typeof WeakMap)return null;var e=new WeakMap,r=new WeakMap;return(_getRequireWildcardCache=function(t){return t?r:e})(t)}function _interopRequireWildcard(t,e){if(!e&&t&&t.__esModule)return t;if(null===t||"object"!=typeof t&&"function"!=typeof t)return{default:t};var r=_getRequireWildcardCache(e);if(r&&r.has(t))return r.get(t);var i={},s=Object.defineProperty&&Object.getOwnPropertyDescriptor;for(var a in t)if("default"!==a&&Object.prototype.hasOwnProperty.call(t,a)){var n=s?Object.getOwnPropertyDescriptor(t,a):null;n&&(n.get||n.set)?Object.defineProperty(i,a,n):i[a]=t[a]}return i.default=t,r&&r.set(t,i),i}function _newArrowCheck(t,e){if(t!==e)throw new TypeError("Cannot instantiate an arrow function")}function _objectDestructuringEmpty(t){if(null==t)throw new TypeError("Cannot destructure undefined")}function _objectWithoutPropertiesLoose(t,e){if(null==t)return{};var r,i,s={},a=Object.keys(t);for(i=0;i<a.length;i++)r=a[i],e.indexOf(r)>=0||(s[r]=t[r]);return s}function _objectWithoutProperties(t,e){if(null==t)return{};var r,i,s=_objectWithoutPropertiesLoose(t,e);if(Object.getOwnPropertySymbols){var a=Object.getOwnPropertySymbols(t);for(i=0;i<a.length;i++)r=a[i],e.indexOf(r)>=0||Object.prototype.propertyIsEnumerable.call(t,r)&&(s[r]=t[r])}return s}function _assertThisInitialized(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}function _possibleConstructorReturn(t,e){if(e&&("object"==typeof e||"function"==typeof e))return e;if(void 0!==e)throw new TypeError("Derived constructors may only return object or undefined");return _assertThisInitialized(t)}function _createSuper(t){var e=_isNativeReflectConstruct();return function(){var r,i=_getPrototypeOf(t);if(e){var s=_getPrototypeOf(this).constructor;r=Reflect.construct(i,arguments,s)}else r=i.apply(this,arguments);return _possibleConstructorReturn(this,r)}}function _superPropBase(t,e){for(;!Object.prototype.hasOwnProperty.call(t,e)&&null!==(t=_getPrototypeOf(t)););return t}function _get(){return _get="undefined"!=typeof Reflect&&Reflect.get?Reflect.get:function(t,e,r){var i=_superPropBase(t,e);if(i){var s=Object.getOwnPropertyDescriptor(i,e);return s.get?s.get.call(arguments.length<3?t:r):s.value}},_get.apply(this,arguments)}function set(t,e,r,i){return set="undefined"!=typeof Reflect&&Reflect.set?Reflect.set:function(t,e,r,i){var s,a=_superPropBase(t,e);if(a){if((s=Object.getOwnPropertyDescriptor(a,e)).set)return s.set.call(i,r),!0;if(!s.writable)return!1}if(s=Object.getOwnPropertyDescriptor(i,e)){if(!s.writable)return!1;s.value=r,Object.defineProperty(i,e,s)}else _defineProperty(i,e,r);return!0},set(t,e,r,i)}function _set(t,e,r,i,s){if(!set(t,e,r,i||t)&&s)throw new Error("failed to set property");return r}function _taggedTemplateLiteral(t,e){return e||(e=t.slice(0)),Object.freeze(Object.defineProperties(t,{raw:{value:Object.freeze(e)}}))}function _taggedTemplateLiteralLoose(t,e){return e||(e=t.slice(0)),t.raw=e,t}function _readOnlyError(t){throw new TypeError('"'+t+'" is read-only')}function _writeOnlyError(t){throw new TypeError('"'+t+'" is write-only')}function _classNameTDZError(t){throw new Error('Class "'+t+'" cannot be referenced in computed property keys.')}function _temporalUndefined(){}function _tdz(t){throw new ReferenceError(t+" is not defined - temporal dead zone")}function _temporalRef(t,e){return t===_temporalUndefined?_tdz(e):t}function _slicedToArray(t,e){return _arrayWithHoles(t)||_iterableToArrayLimit(t,e)||_unsupportedIterableToArray(t,e)||_nonIterableRest()}function _slicedToArrayLoose(t,e){return _arrayWithHoles(t)||_iterableToArrayLimitLoose(t,e)||_unsupportedIterableToArray(t,e)||_nonIterableRest()}function _toArray(t){return _arrayWithHoles(t)||_iterableToArray(t)||_unsupportedIterableToArray(t)||_nonIterableRest()}function _toConsumableArray(t){return _arrayWithoutHoles(t)||_iterableToArray(t)||_unsupportedIterableToArray(t)||_nonIterableSpread()}function _arrayWithoutHoles(t){if(Array.isArray(t))return _arrayLikeToArray(t)}function _arrayWithHoles(t){if(Array.isArray(t))return t}function _maybeArrayLike(t,e,r){if(e&&!Array.isArray(e)&&"number"==typeof e.length){var i=e.length;return _arrayLikeToArray(e,void 0!==r&&r<i?r:i)}return t(e,r)}function _iterableToArray(t){if("undefined"!=typeof Symbol&&null!=t[Symbol.iterator]||null!=t["@@iterator"])return Array.from(t)}function _iterableToArrayLimit(t,e){var r=null==t?null:"undefined"!=typeof Symbol&&t[Symbol.iterator]||t["@@iterator"];if(null!=r){var i,s,a=[],n=!0,o=!1;try{for(r=r.call(t);!(n=(i=r.next()).done)&&(a.push(i.value),!e||a.length!==e);n=!0);}catch(t){o=!0,s=t}finally{try{n||null==r.return||r.return()}finally{if(o)throw s}}return a}}function _iterableToArrayLimitLoose(t,e){var r=t&&("undefined"!=typeof Symbol&&t[Symbol.iterator]||t["@@iterator"]);if(null!=r){var i=[];for(r=r.call(t),_step;!(_step=r.next()).done&&(i.push(_step.value),!e||i.length!==e););return i}}function _unsupportedIterableToArray(t,e){if(t){if("string"==typeof t)return _arrayLikeToArray(t,e);var r=Object.prototype.toString.call(t).slice(8,-1);return"Object"===r&&t.constructor&&(r=t.constructor.name),"Map"===r||"Set"===r?Array.from(t):"Arguments"===r||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r)?_arrayLikeToArray(t,e):void 0}}function _arrayLikeToArray(t,e){(null==e||e>t.length)&&(e=t.length);for(var r=0,i=new Array(e);r<e;r++)i[r]=t[r];return i}function _nonIterableSpread(){throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}function _nonIterableRest(){throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}function _createForOfIteratorHelper(t,e){var r="undefined"!=typeof Symbol&&t[Symbol.iterator]||t["@@iterator"];if(!r){if(Array.isArray(t)||(r=_unsupportedIterableToArray(t))||e&&t&&"number"==typeof t.length){r&&(t=r);var i=0,s=function(){};return{s:s,n:function(){return i>=t.length?{done:!0}:{done:!1,value:t[i++]}},e:function(t){throw t},f:s}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var a,n=!0,o=!1;return{s:function(){r=r.call(t)},n:function(){var t=r.next();return n=t.done,t},e:function(t){o=!0,a=t},f:function(){try{n||null==r.return||r.return()}finally{if(o)throw a}}}}function _createForOfIteratorHelperLoose(t,e){var r="undefined"!=typeof Symbol&&t[Symbol.iterator]||t["@@iterator"];if(r)return(r=r.call(t)).next.bind(r);if(Array.isArray(t)||(r=_unsupportedIterableToArray(t))||e&&t&&"number"==typeof t.length){r&&(t=r);var i=0;return function(){return i>=t.length?{done:!0}:{done:!1,value:t[i++]}}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}function _skipFirstGeneratorNext(t){return function(){var e=t.apply(this,arguments);return e.next(),e}}function _toPrimitive(t,e){if("object"!=typeof t||null===t)return t;var r=t[Symbol.toPrimitive];if(void 0!==r){var i=r.call(t,e||"default");if("object"!=typeof i)return i;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===e?String:Number)(t)}function _toPropertyKey(t){var e=_toPrimitive(t,"string");return"symbol"==typeof e?e:String(e)}function _initializerWarningHelper(t,e){throw new Error("Decorating class property failed. Please ensure that proposal-class-properties is enabled and runs after the decorators transform.")}function _initializerDefineProperty(t,e,r,i){r&&Object.defineProperty(t,e,{enumerable:r.enumerable,configurable:r.configurable,writable:r.writable,value:r.initializer?r.initializer.call(i):void 0})}function _applyDecoratedDescriptor(t,e,r,i,s){var a={};return Object.keys(i).forEach((function(t){a[t]=i[t]})),a.enumerable=!!a.enumerable,a.configurable=!!a.configurable,("value"in a||a.initializer)&&(a.writable=!0),a=r.slice().reverse().reduce((function(r,i){return i(t,e,r)||r}),a),s&&void 0!==a.initializer&&(a.value=a.initializer?a.initializer.call(s):void 0,a.initializer=void 0),void 0===a.initializer&&(Object.defineProperty(t,e,a),a=null),a}_AsyncGenerator.prototype["function"==typeof Symbol&&Symbol.asyncIterator||"@@asyncIterator"]=function(){return this},_AsyncGenerator.prototype.next=function(t){return this._invoke("next",t)},_AsyncGenerator.prototype.throw=function(t){return this._invoke("throw",t)},_AsyncGenerator.prototype.return=function(t){return this._invoke("return",t)};var id=0;function _classPrivateFieldLooseKey(t){return"__private_"+id+++"_"+t}function _classPrivateFieldLooseBase(t,e){if(!Object.prototype.hasOwnProperty.call(t,e))throw new TypeError("attempted to use private field on non-instance");return t}function _classPrivateFieldGet(t,e){return _classApplyDescriptorGet(t,_classExtractFieldDescriptor(t,e,"get"))}function _classPrivateFieldSet(t,e,r){return _classApplyDescriptorSet(t,_classExtractFieldDescriptor(t,e,"set"),r),r}function _classPrivateFieldDestructureSet(t,e){return _classApplyDescriptorDestructureSet(t,_classExtractFieldDescriptor(t,e,"set"))}function _classExtractFieldDescriptor(t,e,r){if(!e.has(t))throw new TypeError("attempted to "+r+" private field on non-instance");return e.get(t)}function _classStaticPrivateFieldSpecGet(t,e,r){return _classCheckPrivateStaticAccess(t,e),_classCheckPrivateStaticFieldDescriptor(r,"get"),_classApplyDescriptorGet(t,r)}function _classStaticPrivateFieldSpecSet(t,e,r,i){return _classCheckPrivateStaticAccess(t,e),_classCheckPrivateStaticFieldDescriptor(r,"set"),_classApplyDescriptorSet(t,r,i),i}function _classStaticPrivateMethodGet(t,e,r){return _classCheckPrivateStaticAccess(t,e),r}function _classStaticPrivateMethodSet(){throw new TypeError("attempted to set read only static private field")}function _classApplyDescriptorGet(t,e){return e.get?e.get.call(t):e.value}function _classApplyDescriptorSet(t,e,r){if(e.set)e.set.call(t,r);else{if(!e.writable)throw new TypeError("attempted to set read only private field");e.value=r}}function _classApplyDescriptorDestructureSet(t,e){if(e.set)return"__destrObj"in e||(e.__destrObj={set value(r){e.set.call(t,r)}}),e.__destrObj;if(!e.writable)throw new TypeError("attempted to set read only private field");return e}function _classStaticPrivateFieldDestructureSet(t,e,r){return _classCheckPrivateStaticAccess(t,e),_classCheckPrivateStaticFieldDescriptor(r,"set"),_classApplyDescriptorDestructureSet(t,r)}function _classCheckPrivateStaticAccess(t,e){if(t!==e)throw new TypeError("Private static access of wrong provenance")}function _classCheckPrivateStaticFieldDescriptor(t,e){if(void 0===t)throw new TypeError("attempted to "+e+" private static field before its declaration")}function _decorate(t,e,r,i){var s=_getDecoratorsApi();if(i)for(var a=0;a<i.length;a++)s=i[a](s);var n=e((function(t){s.initializeInstanceElements(t,o.elements)}),r),o=s.decorateClass(_coalesceClassElements(n.d.map(_createElementDescriptor)),t);return s.initializeClassElements(n.F,o.elements),s.runClassFinishers(n.F,o.finishers)}function _getDecoratorsApi(){_getDecoratorsApi=function(){return t};var t={elementsDefinitionOrder:[["method"],["field"]],initializeInstanceElements:function(t,e){["method","field"].forEach((function(r){e.forEach((function(e){e.kind===r&&"own"===e.placement&&this.defineClassElement(t,e)}),this)}),this)},initializeClassElements:function(t,e){var r=t.prototype;["method","field"].forEach((function(i){e.forEach((function(e){var s=e.placement;if(e.kind===i&&("static"===s||"prototype"===s)){var a="static"===s?t:r;this.defineClassElement(a,e)}}),this)}),this)},defineClassElement:function(t,e){var r=e.descriptor;if("field"===e.kind){var i=e.initializer;r={enumerable:r.enumerable,writable:r.writable,configurable:r.configurable,value:void 0===i?void 0:i.call(t)}}Object.defineProperty(t,e.key,r)},decorateClass:function(t,e){var r=[],i=[],s={static:[],prototype:[],own:[]};if(t.forEach((function(t){this.addElementPlacement(t,s)}),this),t.forEach((function(t){if(!_hasDecorators(t))return r.push(t);var e=this.decorateElement(t,s);r.push(e.element),r.push.apply(r,e.extras),i.push.apply(i,e.finishers)}),this),!e)return{elements:r,finishers:i};var a=this.decorateConstructor(r,e);return i.push.apply(i,a.finishers),a.finishers=i,a},addElementPlacement:function(t,e,r){var i=e[t.placement];if(!r&&-1!==i.indexOf(t.key))throw new TypeError("Duplicated element ("+t.key+")");i.push(t.key)},decorateElement:function(t,e){for(var r=[],i=[],s=t.decorators,a=s.length-1;a>=0;a--){var n=e[t.placement];n.splice(n.indexOf(t.key),1);var o=this.fromElementDescriptor(t),h=this.toElementFinisherExtras((0,s[a])(o)||o);t=h.element,this.addElementPlacement(t,e),h.finisher&&i.push(h.finisher);var l=h.extras;if(l){for(var p=0;p<l.length;p++)this.addElementPlacement(l[p],e);r.push.apply(r,l)}}return{element:t,finishers:i,extras:r}},decorateConstructor:function(t,e){for(var r=[],i=e.length-1;i>=0;i--){var s=this.fromClassDescriptor(t),a=this.toClassDescriptor((0,e[i])(s)||s);if(void 0!==a.finisher&&r.push(a.finisher),void 0!==a.elements){t=a.elements;for(var n=0;n<t.length-1;n++)for(var o=n+1;o<t.length;o++)if(t[n].key===t[o].key&&t[n].placement===t[o].placement)throw new TypeError("Duplicated element ("+t[n].key+")")}}return{elements:t,finishers:r}},fromElementDescriptor:function(t){var e={kind:t.kind,key:t.key,placement:t.placement,descriptor:t.descriptor};return Object.defineProperty(e,Symbol.toStringTag,{value:"Descriptor",configurable:!0}),"field"===t.kind&&(e.initializer=t.initializer),e},toElementDescriptors:function(t){if(void 0!==t)return _toArray(t).map((function(t){var e=this.toElementDescriptor(t);return this.disallowProperty(t,"finisher","An element descriptor"),this.disallowProperty(t,"extras","An element descriptor"),e}),this)},toElementDescriptor:function(t){var e=String(t.kind);if("method"!==e&&"field"!==e)throw new TypeError('An element descriptor\'s .kind property must be either "method" or "field", but a decorator created an element descriptor with .kind "'+e+'"');var r=_toPropertyKey(t.key),i=String(t.placement);if("static"!==i&&"prototype"!==i&&"own"!==i)throw new TypeError('An element descriptor\'s .placement property must be one of "static", "prototype" or "own", but a decorator created an element descriptor with .placement "'+i+'"');var s=t.descriptor;this.disallowProperty(t,"elements","An element descriptor");var a={kind:e,key:r,placement:i,descriptor:Object.assign({},s)};return"field"!==e?this.disallowProperty(t,"initializer","A method descriptor"):(this.disallowProperty(s,"get","The property descriptor of a field descriptor"),this.disallowProperty(s,"set","The property descriptor of a field descriptor"),this.disallowProperty(s,"value","The property descriptor of a field descriptor"),a.initializer=t.initializer),a},toElementFinisherExtras:function(t){return{element:this.toElementDescriptor(t),finisher:_optionalCallableProperty(t,"finisher"),extras:this.toElementDescriptors(t.extras)}},fromClassDescriptor:function(t){var e={kind:"class",elements:t.map(this.fromElementDescriptor,this)};return Object.defineProperty(e,Symbol.toStringTag,{value:"Descriptor",configurable:!0}),e},toClassDescriptor:function(t){var e=String(t.kind);if("class"!==e)throw new TypeError('A class descriptor\'s .kind property must be "class", but a decorator created a class descriptor with .kind "'+e+'"');this.disallowProperty(t,"key","A class descriptor"),this.disallowProperty(t,"placement","A class descriptor"),this.disallowProperty(t,"descriptor","A class descriptor"),this.disallowProperty(t,"initializer","A class descriptor"),this.disallowProperty(t,"extras","A class descriptor");var r=_optionalCallableProperty(t,"finisher");return{elements:this.toElementDescriptors(t.elements),finisher:r}},runClassFinishers:function(t,e){for(var r=0;r<e.length;r++){var i=(0,e[r])(t);if(void 0!==i){if("function"!=typeof i)throw new TypeError("Finishers must return a constructor.");t=i}}return t},disallowProperty:function(t,e,r){if(void 0!==t[e])throw new TypeError(r+" can't have a ."+e+" property.")}};return t}function _createElementDescriptor(t){var e,r=_toPropertyKey(t.key);"method"===t.kind?e={value:t.value,writable:!0,configurable:!0,enumerable:!1}:"get"===t.kind?e={get:t.value,configurable:!0,enumerable:!1}:"set"===t.kind?e={set:t.value,configurable:!0,enumerable:!1}:"field"===t.kind&&(e={configurable:!0,writable:!0,enumerable:!0});var i={kind:"field"===t.kind?"field":"method",key:r,placement:t.static?"static":"field"===t.kind?"own":"prototype",descriptor:e};return t.decorators&&(i.decorators=t.decorators),"field"===t.kind&&(i.initializer=t.value),i}function _coalesceGetterSetter(t,e){void 0!==t.descriptor.get?e.descriptor.get=t.descriptor.get:e.descriptor.set=t.descriptor.set}function _coalesceClassElements(t){for(var e=[],r=function(t){return"method"===t.kind&&t.key===a.key&&t.placement===a.placement},i=0;i<t.length;i++){var s,a=t[i];if("method"===a.kind&&(s=e.find(r)))if(_isDataDescriptor(a.descriptor)||_isDataDescriptor(s.descriptor)){if(_hasDecorators(a)||_hasDecorators(s))throw new ReferenceError("Duplicated methods ("+a.key+") can't be decorated.");s.descriptor=a.descriptor}else{if(_hasDecorators(a)){if(_hasDecorators(s))throw new ReferenceError("Decorators can't be placed on different accessors with for the same property ("+a.key+").");s.decorators=a.decorators}_coalesceGetterSetter(a,s)}else e.push(a)}return e}function _hasDecorators(t){return t.decorators&&t.decorators.length}function _isDataDescriptor(t){return void 0!==t&&!(void 0===t.value&&void 0===t.writable)}function _optionalCallableProperty(t,e){var r=t[e];if(void 0!==r&&"function"!=typeof r)throw new TypeError("Expected '"+e+"' to be a function");return r}function _classPrivateMethodGet(t,e,r){if(!e.has(t))throw new TypeError("attempted to get private field on non-instance");return r}function _checkPrivateRedeclaration(t,e){if(e.has(t))throw new TypeError("Cannot initialize the same private elements twice on an object")}function _classPrivateFieldInitSpec(t,e,r){_checkPrivateRedeclaration(t,e),e.set(t,r)}function _classPrivateMethodInitSpec(t,e){_checkPrivateRedeclaration(t,e),e.add(t)}function _classPrivateMethodSet(){throw new TypeError("attempted to reassign private method")}
 /*! *****************************************************************************
@@ -84,7 +79,7 @@ var n$1=t=>e=>"function"==typeof e?((t,e)=>(window.customElements.define(t,e),e)
 
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],4:[function(require,module,exports){
+},{}],2:[function(require,module,exports){
 'use strict';
 // For more information about browser field, check out the browser field at https://github.com/substack/browserify-handbook#browser-field.
 
@@ -161,7 +156,7 @@ module.exports = {
     }
 };
 
-},{}],5:[function(require,module,exports){
+},{}],3:[function(require,module,exports){
 /*!
  * jQuery JavaScript Library v3.6.0
  * https://jquery.com/
@@ -11044,1009 +11039,1119 @@ if ( typeof noGlobal === "undefined" ) {
 return jQuery;
 } );
 
-},{}],6:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 var css = "* {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  -ms-box-sizing: border-box;\n  box-sizing: border-box;\n}\nhtml {\n  font-size: 16px;\n}\nbody {\n  margin: 0;\n  padding: 0;\n}\nimg {\n  height: auto;\n  max-width: 100%;\n  width: auto \\9;\n}\narticle {\n  margin: 0 auto;\n  max-width: 1000px;\n  padding: 3em 0;\n}\n.responsive-video {\n  font: 300 1rem/1.5 'Open Sans', sans-serif;\n  position: relative;\n  transition: opacity .2s ease-in-out;\n}\n.responsive-video.loaded {\n  opacity: 1;\n}\n.responsive-video.loaded video {\n  height: 100%;\n  left: 0;\n  outline: none;\n  position: absolute;\n  top: 0;\n  width: 100%;\n}\n.responsive-video .controls-wrapper {\n  bottom: 0;\n  cursor: pointer;\n  font-size: 16px;\n  left: 0;\n  overflow: hidden;\n  position: absolute;\n  right: 0;\n  top: 0;\n}\n.controls-wrapper .icon {\n  color: #fff;\n  font-family: 'Material Icons';\n  font-weight: normal;\n  font-style: normal;\n  font-size: 24px;\n  /* Preferred icon size */\n  line-height: 1;\n  text-transform: none;\n  letter-spacing: normal;\n  word-wrap: normal;\n  white-space: nowrap;\n  direction: ltr;\n  /* Support for all WebKit browsers. */\n  -webkit-font-smoothing: antialiased;\n  /* Support for Safari and Chrome. */\n  text-rendering: optimizeLegibility;\n  /* Support for Firefox. */\n  -moz-osx-font-smoothing: grayscale;\n  /* Support for IE. */\n  font-feature-settings: 'liga';\n}\n.responsive-video .controls-bottom-tray {\n  align-items: center;\n  background: rgba(0, 0, 0, .5);\n  background-image: linear-gradient(to top, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));\n  background-image: linear-gradient(to top, rgba(133, 154, 160, .7), rgba(133, 154, 160, 0));\n  box-shadow: 0 px - 1 px 5 px rgba(255, 255, 255, .25);\n  bottom: 0;\n  color: #fff;\n  cursor: default;\n  display: flex;\n  left: 0;\n  min-height: .125em;\n  padding: 0;\n  position: absolute;\n  right: 0;\n  flex-flow: column;\n  transition: all .15s ease-in-out;\n}\n.responsive-video.pip-video .controls-bottom-tray:hover {\n  min-height: 0;\n  padding: .125rem 0;\n}\n.responsive-video:not(.pip-video) div.controls-wrapper:not(.disable):hover .controls-bottom-tray {\n  min-height: 2.1875em;\n  padding: .7em 0;\n}\n.controls-bottom-tray .button-bar {\n  width: 100%;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n}\n.controls-bottom-tray .play-button {\n  cursor: pointer;\n  font-size: 1.5rem;\n  background-color: #f46453;\n  opacity: 0;\n  border-radius: 50%;\n  position: absolute;\n  padding: 5px;\n  z-index: 999;\n}\ndiv.controls-wrapper:not(.disable):hover .play-button {\n  position: relative;\n}\ndiv.controls-wrapper:not(.disable):hover .play-button {\n  opacity: 1;\n}\n.responsive-video .play-button:before {\n  content: \"play_arrow\";\n}\n.responsive-video:not(.pip-paused) video.playing ~ .controls-wrapper .play-button:before {\n  content: \"pause\";\n}\n.controls-bottom-tray .track {\n  cursor: pointer;\n  flex-grow: 1;\n  width: 100%;\n  padding: 0.5rem 10px;\n}\n.controls-bottom-tray .track-inner {\n  background: rgba(255, 255, 255, .5);\n  background: rgba(133, 154, 160, .5);\n  border-radius: .0625em;\n  height: .125em;\n  position: relative;\n  transition: all .15s ease-in-out;\n}\n.controls-wrapper:not(:hover) .controls-bottom-tray .track-inner {\n  margin-left: 0;\n  margin-right: 0;\n}\n.controls-bottom-tray:hover .track-inner {\n  height: .7em;\n}\n.controls-bottom-tray .track .track-bar {\n  border-radius: .0625em;\n  height: 100%;\n  transition: width .3s linear;\n  width: 0;\n}\n.controls-bottom-tray .track span:not(.track-circle) {\n  background-color: #ffffff;\n  height: 100%;\n  position: absolute;\n  width: 1px;\n  border-radius: 50%;\n  z-index: 999;\n  display: none;\n}\n.controls-bottom-tray .track:hover span:not(.track-circle) {\n  display: block;\n}\ninput[type=\"range\"] {\n  accent-color: #F55050;\n}\n.controls-bottom-tray .track .track-loader-bar {\n  width: 100%;\n  height: .125em;\n  position: absolute;\n}\n.controls-bottom-tray .track-circle {\n  width: 0.7rem;\n  height: 0.7rem;\n  position: absolute;\n  border-radius: 50%;\n  background-color: #F55050;\n  top: -0.27rem;\n  display: block;\n  -moz-transition: all 0.3s ease-out;\n  /* FF4+ */\n  -o-transition: all 0.3s ease-out;\n  /* Opera 10.5+ */\n  -webkit-transition: all 0.3s ease-out;\n  /* Saf3.2+, Chrome */\n  -ms-transition: all 0.3s ease-out;\n  /* IE10 */\n  transition: all 0.3s ease-out;\n}\n.controls-bottom-tray:hover .track-circle {\n  display: none;\n  -moz-transition: all 0.3s ease-out;\n  /* FF4+ */\n  -o-transition: all 0.3s ease-out;\n  /* Opera 10.5+ */\n  -webkit-transition: all 0.3s ease-out;\n  /* Saf3.2+, Chrome */\n  -ms-transition: all 0.3s ease-out;\n  /* IE10 */\n  transition: all 0.3s ease-out;\n}\n.controls-bottom-tray:hover .track .track-loader-bar {\n  height: .7em;\n}\n.controls-bottom-tray .track .track-bar {\n  background: rgb(244, 100, 83);\n}\n.controls-bottom-tray .track .timer-flag {\n  background: #eee;\n  bottom: 100%;\n  color: #333;\n  cursor: none;\n  font-size: .625em;\n  line-height: .625em;\n  margin-bottom: 4px;\n  opacity: 0;\n  padding: .5em;\n  position: absolute;\n  transform: translateX(-50%);\n  transition: opacity .15s linear;\n  z-index: 10;\n}\n.controls-bottom-tray .track:hover .timer-flag {\n  opacity: 1;\n}\n.controls-bottom-tray .track .timer-flag:after {\n  border-left: 4px solid transparent;\n  border-right: 4px solid transparent;\n  border-top: 4px solid #eee;\n  content: \"\";\n  height: 0;\n  left: 50%;\n  position: absolute;\n  top: 100%;\n  transform: translateX(-50%);\n  width: 0;\n}\n.controls-bottom-tray .counter {\n  display: none;\n  font-size: .8125em;\n  margin: 0 5px;\n}\ndiv.controls-wrapper:not(.disable):hover .controls-bottom-tray .counter {\n  display: block;\n}\n.controls-bottom-tray .mute-button {\n  cursor: pointer;\n  display: none;\n  position: relative;\n}\ndiv.controls-wrapper:not(.disable):hover .controls-bottom-tray .mute-button {\n  display: block;\n}\n.responsive-video.pip-video .controls-bottom-tray .mute-button {\n  font-size: 16px;\n  margin-left: .25rem;\n}\n.controls-bottom-tray .mute-button:before {\n  content: \"volume_up\";\n}\n.controls-bottom-tray .mute-button[active]:before {\n  content: \"volume_off\";\n}\n.volume-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-flow: row-reverse;\n}\n.volume-button {\n  width: 70px;\n}\n.controls-bottom-tray .volume-button {\n  display: none;\n}\ndiv.controls-wrapper:not(.disable):hover .controls-bottom-tray .volume-button {\n  display: block;\n}\n.controls-wrapper .fullscreen-button.active:before {\n  content: \"fullscreen_exit\";\n}\n.controls-wrapper .fullscreen-button:before {\n  content: \"fullscreen\";\n}\n.controls-wrapper .hd-wrapper {\n  position: relative;\n  margin: 0 5px;\n}\n.controls-wrapper .hd-menu {\n  background: #fff;\n  bottom: 100%;\n  color: #000;\n  display: none;\n  font-size: 14px;\n  list-style: none;\n  opacity: 0;\n  padding: 1rem;\n  pointer-events: none;\n  position: absolute;\n  transition: opacity .2s;\n  margin-bottom: 1px;\n  z-index: 9999;\n  left: 50%;\n  transform: translateX(-50%);\n}\ndiv.controls-wrapper:not(.disable):hover .hd-menu {\n  display: block;\n}\n.controls-wrapper .hd-wrapper.active .hd-menu {\n  opacity: 1;\n  pointer-events: all;\n  padding: 0 15px;\n}\n.controls-wrapper .hd-menu:after {\n  border-left: 6px solid transparent;\n  border-right: 6px solid transparent;\n  border-top: 6px solid #fff;\n  content: \"\";\n  height: 0;\n  position: absolute;\n  top: 98%;\n  width: 0;\n  transform: translateX(-50%);\n  left: 50%;\n}\n.controls-wrapper .hd-menu li {\n  cursor: pointer;\n}\n.controls-wrapper .hd-button {\n  align-items: center;\n  cursor: pointer;\n  display: none;\n  -webkit-transition: -webkit-transform .1s ease-in-out;\n  -ms-transition: -ms-transform .1s ease-in-out;\n  transition: transform .1s ease-in-out;\n}\n.controls-wrapper .hd-button:hover {\n  transform: rotate(25deg);\n  -ms-transform: rotate(25deg);\n  -webkit-transform: rotate(25deg);\n}\n.controls-bottom-tray .selected-quality {\n  position: absolute;\n  background-color: red;\n  font-size: 0.5rem;\n  padding: 1px 3px;\n  right: -10px;\n  border-radius: 5px;\n  bottom: -2px;\n  z-index: 99;\n  display: none;\n}\ndiv.controls-wrapper:not(.disable):hover .selected-quality {\n  display: block;\n}\ndiv.controls-wrapper:not(.disable):hover .controls-bottom-tray .hd-button {\n  display: flex;\n}\n.hd-button:before {\n  content: \"settings\";\n}\n.fullscreen-button {\n  cursor: pointer;\n  display: none;\n}\ndiv.controls-wrapper:not(.disable):hover .fullscreen-button {\n  display: block;\n  opacity: 1;\n  margin: 0 5px;\n}\n.fullscreen-button:before {\n  content: \"picture_in_picture_alt\";\n}\n.responsive-video.pip-video {\n  padding: 0 !important;\n}\n.responsive-video.pip-video .play-button {\n  font-size: 32px;\n}\n.responsive-video.pip-video .controls-bottom-tray .track {\n  width: 90%;\n}\n.responsive-video.pip-video .pip-close-button {\n  float: right;\n  font-size: 24px;\n}\n.responsive-video.pip-video .pip-close-button:before {\n  content: \"close\";\n}\n.responsive-video.pip-video .counter,\n.responsive-video.pip-video .volume-container,\n.responsive-video.pip-video .hd-wrapper,\n.responsive-video.pip-video .fullscreen-button {\n  display: none !important;\n}\n.thumbnail-preview-wrapper {\n  background: #fff;\n  bottom: 100%;\n  cursor: none;\n  opacity: 0;\n  padding: 1px;\n  position: absolute;\n  transform: translateX(-50%);\n  transition: opacity .15s linear;\n  width: 140px;\n  z-index: 9;\n}\n.thumbnail-preview-wrapper:empty {\n  display: none;\n}\n.track:hover .thumbnail-preview-wrapper {\n  opacity: 1;\n}\n.thumbnail-preview-wrapper .controls-wrapper {\n  display: none;\n}\ninput[type=range]::-webkit-slider-runnable-track {\n  height: 5px;\n  border-radius: 2px;\n}\ninput[type=range]::-webkit-slider-thumb {\n  transform: translateY(-33.333%);\n}\ninput[type=range]::-moz-range-track {\n  height: 5px;\n  border-radius: 2px;\n}\ninput[type=range]::-ms-track {\n  height: 5px;\n  background: transparent;\n  border-radius: 2px;\n}\n.invisible {\n  visibility: hidden;\n}\n/*input[type=range]::-ms-fill-lower {\r\n  background: blue;\r\n  //border: 0.2px solid #010101;\r\n  border-radius: 2px;\r\n  //box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;\r\n}\r\ninput[type=range]:focus::-ms-fill-lower {\r\n  background: red;\r\n}\r\ninput[type=range]::-ms-fill-upper {\r\n  background: blue;\r\n  //border: 0.2px solid #010101;\r\n  border-radius: 2px;\r\n  //box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;\r\n}\r\ninput[type=range]:focus::-ms-fill-upper {\r\n  background: red;\r\n}*/\n"; (require("browserify-css").createStyle(css, { "href": "src\\css\\player.css" }, { "insertAt": "bottom" })); module.exports = css;
-},{"browserify-css":4}],7:[function(require,module,exports){
+},{"browserify-css":2}],5:[function(require,module,exports){
 var css = "body,\n#footer {\n  background-color: #eaeaea;\n}\nvideo {\n  border: 1px solid #000;\n  background-color: #000;\n}\n#info input[type=text] {\n  width: 300px;\n}\nh4 {\n  margin: 2px;\n}\n.button {\n  display: inline-block;\n  border-radius: 4px;\n  background-color: #f4511e;\n  border: none;\n  color: #FFFFFF;\n  text-align: center;\n  font-size: 21px;\n  padding: 5px;\n  width: 100px;\n  transition: all 0.5s;\n  cursor: pointer;\n  margin: 5px;\n}\n.button span {\n  cursor: pointer;\n  display: inline-block;\n  position: relative;\n  transition: 0.5s;\n}\n.button span:after {\n  content: '\\00bb';\n  position: absolute;\n  opacity: 0;\n  top: 0;\n  right: -20px;\n  transition: 0.5s;\n}\n.button:hover span {\n  padding-right: 25px;\n}\n.button:hover span:after {\n  opacity: 1;\n  right: 0;\n}\n/* thumbnail box */\n.title {\n  color: #1a1a1a;\n  text-align: center;\n  margin-bottom: 10px;\n}\n.content {\n  position: relative;\n  width: 90%;\n  max-width: 400px;\n  margin: auto;\n  overflow: hidden;\n  -webkit-box-shadow: 0px 1px 21px 2px rgba(109, 49, 10, 0.71);\n  box-shadow: 0px 1px 21px 2px rgba(109, 49, 10, 0.71);\n}\n.content .content-overlay {\n  background: rgba(0, 0, 0, 0.7);\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  left: 0;\n  top: 0;\n  bottom: 0;\n  right: 0;\n  opacity: 0;\n  -webkit-transition: all 0.4s ease-in-out 0s;\n  -moz-transition: all 0.4s ease-in-out 0s;\n  transition: all 0.4s ease-in-out 0s;\n}\n.content:hover .content-overlay {\n  opacity: 1;\n}\n.content-image {\n  width: 100%;\n}\nimg {\n  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);\n  border-radius: 5px;\n}\n.content-details {\n  position: absolute;\n  text-align: center;\n  padding-left: 1em;\n  padding-right: 1em;\n  width: 100%;\n  top: 50%;\n  left: 50%;\n  opacity: 0;\n  -webkit-transform: translate(-50%, -50%);\n  -moz-transform: translate(-50%, -50%);\n  transform: translate(-50%, -50%);\n  -webkit-transition: all 0.3s ease-in-out 0s;\n  -moz-transition: all 0.3s ease-in-out 0s;\n  transition: all 0.3s ease-in-out 0s;\n}\n.content:hover .content-details {\n  top: 50%;\n  left: 50%;\n  opacity: 1;\n}\n.content-details h3 {\n  color: #fff;\n  font-weight: 500;\n  letter-spacing: 0.15em;\n  margin-bottom: 0.5em;\n  text-transform: uppercase;\n}\n.content-details p {\n  color: #fff;\n  font-size: 0.8em;\n}\n.fadeIn-bottom {\n  top: 80%;\n}\n/* loading */\n*.hidden {\n  display: none !important;\n}\n.lottie-loading {\n  margin: auto;\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  width: 80px;\n  height: 80px;\n  background-color: #fff;\n  border-radius: 50%;\n  box-shadow: 0 0 18px #00000060;\n  z-index: 999;\n}\n.player-container {\n  position: relative;\n}\nvideo::-webkit-media-controls {\n  visibility: hidden;\n}\nvideo::-webkit-media-controls-enclosure {\n  visibility: visible;\n}\n"; (require("browserify-css").createStyle(css, { "href": "src\\css\\style.css" }, { "insertAt": "bottom" })); module.exports = css;
-},{"browserify-css":4}],8:[function(require,module,exports){
-'use strict';
-(function () {
-    let jquery
-        , playaController
-        , loadingJSON;
+},{"browserify-css":2}],6:[function(require,module,exports){
+"use strict";
 
-    function OfflinePlayerSDK(params) {
-        if (typeof (require) !== 'undefined' && typeof (exports) !== 'undefined') {
-            jquery = require("jquery");
-            require("./js/controller.js");
-            require("@lottiefiles/lottie-player");
-            loadingJSON = require("../loading.json");
-            require("./css/style.css");
-            require("./css/player.css");
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _jquery = _interopRequireDefault(require("jquery"));
+
+var _controller = _interopRequireDefault(require("./js/controller.js"));
+
+require("@lottiefiles/lottie-player");
+
+var _loading = _interopRequireDefault(require("./loading.json"));
+
+require("./css/style.css");
+
+require("./css/player.css");
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+var SDK = {};
+var params = {};
+var selfInstance = SDK,
+    afterBufferSecond = 20,
+    beforeBufferSecond = 10,
+    parser = new DOMParser(),
+    maxRequestNumber = 10,
+    logging = {
+  error: false,
+  warning: false,
+  debug: false,
+  info: false
+};
+var requestsList = [],
+    mimeCodec = 'video/mp4; codecs="avc1.64001f"',
+    mediaSource,
+    totalSegmentCount = 0,
+    segmentDuration = 0,
+    consumeLink = '',
+    produceLink = '',
+    refreshLink = '',
+    currentSegment = -1,
+    pause = false,
+    sourceBuffer,
+    fetchingIntervalStart = null,
+    currentRequestNumber = 0,
+    seekingSetTimeout = null,
+    refreshInterval = null,
+    environment = params.env || 'main',
+    communicationServers = {
+  // Main Server
+  main: {
+    baseUrl: "https://offline-stream.pod.ir"
+  },
+  // Sand Box Server
+  sandbox: {
+    baseUrl: "https://sandbox-offline-stream.pod.ir"
+  },
+  // Integration Server
+  integration: {
+    baseUrl: "http://192.168.112.32"
+  }
+},
+    token = params.token || "ed24e37c7ee84313acf2805a80122f94",
+    hash = params.hash,
+    baseUrl = communicationServers[environment].baseUrl,
+    quality = params.quality || 240,
+    containerId = params.containerId,
+    domElements = {},
+    playaVideo;
+
+SDK.playMedia = function (params) {
+  hash = params.hash;
+  token = params.token;
+  quality = params.quality;
+  createElements();
+  var parentElement = document.getElementById(containerId);
+  parentElement.appendChild(domElements.container);
+  playaVideo = new _controller["default"](domElements.video);
+  domElements.video = document.getElementById("stream-video-tag");
+  resetParameters();
+  setTimeout(function () {
+    startPlayingVideo(true);
+  });
+};
+
+SDK.playMedia = function (params) {
+  hash = params.hash;
+  token = params.token;
+  quality = params.quality;
+  createElements();
+  var parentElement = document.getElementById(containerId);
+  parentElement.appendChild(domElements.container);
+  playaVideo = new _controller["default"](domElements.video);
+  domElements.video = document.getElementById("stream-video-tag");
+  resetParameters();
+  setTimeout(function () {
+    startPlayingVideo(true);
+  });
+};
+
+SDK.setToken = function (newToken) {
+  token = newToken;
+};
+
+SDK.destroyVideo = function () {
+  abortRecentRequests();
+  resetParameters();
+  domElements = {};
+  document.getElementById("stream-video-container").remove();
+};
+
+SDK.logBuffered = function () {
+  try {
+    var ranges = sourceBuffer.buffered;
+    logging.debug && console.debug("BUFFERED RANGES: " + ranges.length);
+
+    for (var i = 0, len = ranges.length; i < len; i += 1) {
+      logging.debug && console.debug("RANGE: " + ranges.start(i) + " - " + ranges.end(i));
+    }
+  } catch (e) {
+    logging.error && console.error("log error" + e);
+  }
+};
+
+function createElements() {
+  if (!document.getElementById("pod-comm-offline-sdk-materialicons")) (0, _jquery["default"])("head").prepend("<link id='pod-comm-offline-sdk-materialicons' href=\"https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css\"    rel=\"stylesheet\">");
+  domElements.container = document.createElement("div");
+  domElements.container.setAttribute('class', "stream-video-container");
+  domElements.container.setAttribute('id', "stream-video-container");
+  domElements.container.style.position = "relative";
+  domElements.video = document.createElement("video"); //document.querySelector("#myVideoTag") //= document.createElement("video")
+
+  domElements.video.setAttribute('playsinline', '');
+  domElements.video.setAttribute('id', "stream-video-tag");
+  domElements.video.setAttribute('class', "stream-video-tag"); // domElements.video.setAttribute('autoplay', "");
+
+  domElements.video.setAttribute('time', "0");
+  domElements.video.setAttribute('preload', "auto");
+  domElements.loader = document.createElement("lottie-player");
+  domElements.loader.setAttribute('class', "stream-loading lottie-loading hidden");
+  domElements.loader.setAttribute('id', "stream-loading");
+  domElements.loader.setAttribute('background', "transparent");
+  domElements.loader.setAttribute('speed', "1");
+  domElements.loader.setAttribute('loop', "");
+  domElements.loader.setAttribute('autoplay', "");
+  domElements.loader.setAttribute('src', JSON.stringify(_loading["default"]));
+  domElements.container.appendChild(domElements.loader);
+  domElements.container.appendChild(domElements.video);
+}
+
+function setLoading(showLoading) {
+  if (showLoading) {
+    domElements.loader.classList.remove("hidden");
+  } else {
+    if (domElements.loader) domElements.loader.classList.add("hidden");
+  }
+}
+
+function resetParameters() {
+  currentRequestNumber = 0;
+  totalSegmentCount = 0;
+  segmentDuration = 0;
+  consumeLink = "";
+  produceLink = "";
+  refreshLink = "";
+  currentSegment = -1;
+  pause = false;
+
+  if (fetchingIntervalStart != null) {
+    clearInterval(fetchingIntervalStart);
+    fetchingIntervalStart = null;
+  }
+
+  if (seekingSetTimeout != null) {
+    clearTimeout(seekingSetTimeout);
+    seekingSetTimeout = null;
+  }
+
+  if (refreshInterval != null) {
+    clearTimeout(refreshInterval);
+    refreshInterval = null;
+  }
+}
+
+function startPlayingVideo(callRegister) {
+  // Create Media Source
+  mediaSource = new MediaSource(); // mediaSource.readyState === 'closed'
+  // Attach media source to video element
+
+  domElements.video.src = URL.createObjectURL(mediaSource);
+  domElements.video.crossOrigin = "anonymous"; // Wait for media source to be open
+
+  mediaSource.addEventListener("sourceopen", function () {
+    mediaSource = this; // mediaSource.readyState === 'open'
+
+    if (callRegister) register();
+  });
+  domElements.video.addEventListener("seeking", function (event) {
+    if (!pause) {
+      pause = true;
+      seek();
+    }
+  });
+  domElements.video.addEventListener("timeupdate", function () {
+    if (!pause) setLoading(false);
+  });
+  domElements.video.addEventListener("waiting", function (event) {
+    setLoading(true);
+  });
+  domElements.video.addEventListener("suspend ", function (event) {
+    setLoading(true);
+  });
+  domElements.video.addEventListener("loadeddata", function (event) {
+    setLoading(false);
+  });
+  domElements.video.addEventListener("play", function (event) {
+    setLoading(false);
+  });
+  domElements.video.addEventListener("playing", function (event) {
+    setLoading(false);
+  });
+  domElements.video.addEventListener("seeked", function (event) {
+    setLoading(false);
+  });
+}
+
+function register() {
+  var registerAgain = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
+  var segment = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : currentSegment;
+  (0, _jquery["default"])(".selected-quality").html(quality);
+  logging.info && console.info("register start");
+  var ajaxTime = new Date().getTime();
+  setLoading(true);
+  abortRecentRequests();
+  var url = baseUrl + "/register/?token=" + token + "&hashFile=" + hash + "&progressive=false&security=false&quality=" + quality + "&mobile=false";
+
+  _jquery["default"].ajax(url, {
+    headers: {
+      _token_: token
+    },
+    method: "GET",
+    dataType: "json",
+    // type of response data
+    cache: false,
+    accepts: {
+      json: "application/json"
+    },
+    success: function success(response, status, xhr) {
+      // success callback function
+      var totalTime = new Date().getTime() - ajaxTime;
+      logging.info && console.info("register response after: " + totalTime);
+      logging.info && console.info(response);
+      setLoading(false);
+      consumeLink = response.consumLink;
+      produceLink = response.produceLink;
+      refreshLink = response.refreshLink;
+      logging.info && console.info("consumeLink:" + response.consumLink);
+      logging.info && console.info("produceLink: " + response.produceLink);
+      logging.info && console.info("refreshLink: " + response.refreshLink);
+      logging.info && console.info("total-segment-count:" + totalSegmentCount, "segment-duration-seconds: " + segmentDuration, "mimeCodec: " + mimeCodec);
+
+      if (!registerAgain) {
+        initManifestData(response.manifest + "");
+        initSourceBuffer();
+        domElements.video.play()["catch"](function (error) {
+          console.log(error);
+        });
+      } else {
+        logging.info && console.info("SEEKING IN REGISTER");
+        seekToSegment(segment);
+      }
+    },
+    error: function error(jqXhr, textStatus, errorMessage) {
+      // error callback
+      setLoading(false);
+      logging.error && console.error(errorMessage);
+    }
+  });
+}
+
+function seek() {
+  domElements.video.pause();
+
+  if (seekingSetTimeout != null) {
+    clearTimeout(seekingSetTimeout);
+    seekingSetTimeout = null;
+  }
+
+  seekingSetTimeout = setTimeout(function () {
+    // const currentPlayingSegment = Math.max(parseInt(Math.floor(Math.floor(video.currentTime) / (segmentDuration / 1000))), 0);
+    // video.currentTime = currentPlayingSegment * (segmentDuration / 1000);
+    var serverSeekSegment = getServerSeekSegment();
+    seekToSegment(serverSeekSegment);
+    domElements.video.play();
+  }, 500);
+}
+
+function seekToSegment(segment) {
+  abortRecentRequests();
+  logging.info && console.info("seeking to segment: " + segment);
+  segment = Math.min(segment, totalSegmentCount);
+  var url = produceLink + "?segment=" + segment;
+
+  var seekRequest = _jquery["default"].ajax(url, {
+    headers: {
+      _token_: token
+    },
+    method: "GET",
+    dataType: "json",
+    // type of response data
+    cache: false,
+    accepts: {
+      json: "application/json"
+    },
+    success: function success(response, status, xhr) {
+      currentSegment = segment - 1;
+      logging.info && console.info("seeking to segment done response: " + response);
+      pause = false;
+      requestsList.splice(requestsList.indexOf(seekRequest), 1);
+    },
+    statusCode: {
+      404: function _() {
+        registerAndSeek(segment);
+      }
+    },
+    error: function error(jqXhr, textStatus, errorMessage) {
+      // error callback
+      requestsList.splice(requestsList.indexOf(seekRequest), 1);
+      logging.error && console.error(errorMessage);
+      pause = false;
+    }
+  });
+
+  requestsList.push(seekRequest);
+}
+
+function nextSegment() {
+  currentSegment = Math.max(currentSegment, -1);
+
+  if (currentSegment <= totalSegmentCount - 1) {
+    if (!checkBuffered(currentSegment + 1)) {
+      currentSegment += 1;
+      fetchArrayBuffer(currentSegment);
+    } else {
+      var calculatedSegment = getServerSeekSegment();
+
+      if (calculatedSegment >= totalSegmentCount || checkBufferedTime(calculatedSegment * (segmentDuration / 1000), (calculatedSegment + 1) * segmentDuration / 1000)) {
+        logging.info && console.info("in buffered");
+        currentSegment = calculatedSegment - 1;
+      } else if (calculatedSegment < totalSegmentCount) {
+        if (requestsList.length === 0) {
+          logging.debug && console.debug("segment" + currentSegment + " read by cache buffer");
+          pause = true;
+          seekToSegment(calculatedSegment);
+        }
+      }
+    }
+  }
+}
+
+function checkBuffered(segment) {
+  try {
+    var ranges = sourceBuffer.buffered;
+    var currentTime = segment * (segmentDuration / 1000);
+
+    for (var i = 0, len = ranges.length; i < len; i += 1) {
+      var endI = Math.ceil(ranges.end(i));
+      if (ranges.start(i) < currentTime && currentTime <= endI) return true;
+    }
+  } catch (e) {
+    return false;
+  }
+
+  return false;
+}
+
+function getServerSeekSegment() {
+  try {
+    var ranges = sourceBuffer.buffered;
+
+    for (var i = 0, len = ranges.length; i < len; i += 1) {
+      var endI = Math.ceil(ranges.end(i));
+
+      if (ranges.start(i) <= domElements.video.currentTime && domElements.video.currentTime <= endI) {
+        logging.debug && console.debug("FIND IN RANGE :  " + ranges.start(i) + " : " + endI);
+        logging.debug && console.debug("FIND SEGMENT : " + Math.max(parseInt(Math.floor(Math.floor(endI) / (segmentDuration / 1000))), 0));
+        return Math.max(parseInt(Math.floor(Math.floor(endI) / (segmentDuration / 1000))), 0) + 1;
+      }
+    }
+  } catch (e) {
+    return Math.max(parseInt(Math.floor(Math.floor(domElements.video.currentTime) / (segmentDuration / 1000))), 0) + 1;
+  }
+
+  return Math.max(parseInt(Math.floor(Math.floor(domElements.video.currentTime) / (segmentDuration / 1000))), 0) + 1;
+}
+
+function fetchArrayBuffer(segment) {
+  var ajaxTime = new Date().getTime();
+  logging.info && console.info(consumeLink, "segment :" + segment);
+  logging.info && console.info("start to fetch bytes for segment: " + segment);
+  currentRequestNumber += 1;
+
+  var consumeReq = _jquery["default"].ajax(consumeLink, {
+    headers: {
+      _token_: token
+    },
+    method: "GET",
+    cache: false,
+    retryCount: 0,
+    data: {
+      a: segment
+    },
+    xhr: function xhr() {
+      var xhr = new XMLHttpRequest();
+      xhr.responseType = "arraybuffer";
+      return xhr;
+    },
+    success: function success(response, status, xhr) {
+      currentRequestNumber -= 1;
+      var totalTime = new Date().getTime() - ajaxTime;
+      logging.info && console.info("response for segment:" + segment + " length: " + response.byteLength + " totalTime: " + totalTime);
+      var appendIntVal = setInterval(function () {
+        try {
+          if (!sourceBuffer.updating) {
+            sourceBuffer.appendBuffer(response);
+            setTimeout(function () {
+              selfInstance.logBuffered();
+            }, 200);
+            clearInterval(appendIntVal);
+          }
+        } catch (e) {
+          clearInterval(appendIntVal);
+        }
+      }, 150);
+      requestsList.splice(requestsList.indexOf(consumeReq), 1);
+    },
+    statusCode: {
+      410: function _() {
+        currentSegment--;
+      },
+      404: function _() {
+        registerAndSeek(currentSegment);
+      }
+    },
+    error: function error(jqXhr, textStatus, errorMessage) {
+      // error callback
+      requestsList.splice(requestsList.indexOf(consumeReq), 1);
+      currentRequestNumber -= 1;
+      logging.error && console.error(errorMessage);
+    }
+  });
+
+  requestsList.push(consumeReq);
+}
+
+function changeQuality(quality) {
+  pause = true;
+  domElements.video.pause();
+  abortRecentRequests();
+  var url = produceLink + "?quality=" + quality + "&segment=0";
+  var seekSegment = Math.floor(domElements.video.currentTime / (parseInt(segmentDuration) / 1000));
+  var ajaxTime = new Date().getTime();
+  logging.info && console.info("seeking : " + url);
+
+  _jquery["default"].ajax(url, {
+    headers: {
+      _token_: token
+    },
+    method: "GET",
+    cache: false,
+    accepts: {
+      json: "application/json"
+    },
+    success: function success() {
+      (0, _jquery["default"])(".selected-quality").html(quality);
+      var totalTime = new Date().getTime() - ajaxTime;
+      logging.info && console.info("response for seeking totalTime: " + totalTime);
+      removeBuffered();
+      currentSegment = 0;
+      fetchArrayBuffer(currentSegment);
+      currentSegment = 1;
+      fetchArrayBuffer(currentSegment);
+      currentSegment = 3;
+      fetchArrayBuffer(currentSegment);
+      var seekIntVal = setInterval(function () {
+        if (checkBufferedTime(0, 2 * segmentDuration / 1000)) {
+          logging.info && console.log("seek start data has buffered");
+          seekToSegment(seekSegment);
+          domElements.video.play();
+          clearInterval(seekIntVal);
+        }
+      }, 150);
+    },
+    error: function error(jqXhr, textStatus, errorMessage) {
+      // error callback
+      pause = false;
+      logging.error && console.error(errorMessage);
+    }
+  });
+}
+
+function checkBufferedTime(begin, end) {
+  try {
+    logging.info && console.log("checked buffered start:" + begin + "end :" + end);
+    var ranges = sourceBuffer.buffered;
+
+    for (var i = 0, len = ranges.length; i < len; i += 1) {
+      var endI = String(ranges.end(i)).includes(".999999") ? parseFloat(ranges.end(i)) + 0.000001 : ranges.end(i);
+      logging.info && console.log("seek start" + ranges.start(i) + " end :" + endI);
+      if (ranges.start(i) <= begin && end <= Math.ceil(endI)) return true;
+    }
+
+    return false;
+  } catch (e) {
+    return false;
+  }
+}
+
+function createFetchingInterval() {
+  if (fetchingIntervalStart == null) {
+    fetchingIntervalStart = setInterval(function () {
+      if (consumeLink.length > 0 && !pause) {
+        var currentPlayingSegment = Math.max(parseInt(Math.floor(Math.floor(domElements.video.currentTime) / (segmentDuration / 1000))), 0);
+
+        if (!pause && currentRequestNumber <= maxRequestNumber && currentSegment <= totalSegmentCount - 1 && getServerSeekSegment() < currentPlayingSegment + afterBufferSecond / (segmentDuration / 1000) + 1) {
+          nextSegment();
+        }
+      }
+
+      if (!pause && !sourceBuffer.updating && domElements.video.currentTime > beforeBufferSecond) {
+        var endRemove = Math.max(parseInt(Math.floor(Math.floor(domElements.video.currentTime) / (segmentDuration / 1000))), 0) * (segmentDuration / 1000) - beforeBufferSecond;
+        if (endRemove !== 0) sourceBuffer.remove(0, endRemove);
+      }
+    }, 500);
+  }
+
+  if (refreshInterval == null) {
+    refreshInterval = setInterval(function () {
+      if (refreshLink.length > 0) {
+        refreshStream();
+      }
+    }, 1000 * 60 * 5);
+  }
+}
+
+function refreshStream() {
+  _jquery["default"].ajax(refreshLink, {
+    headers: {
+      _token_: token
+    },
+    method: "GET",
+    cache: false,
+    accepts: {
+      json: "application/json"
+    },
+    success: function success(response) {
+      logging.info && console.info("refresh done");
+    },
+    error: function error(jqXhr, textStatus, errorMessage) {
+      logging.error && console.error(errorMessage);
+    }
+  });
+}
+
+function changeHashFile(hashFile, token, quality) {
+  pause = true;
+  domElements.video.pause();
+  var url = produceLink + "?quality=" + quality + "&hashFile=" + hashFile;
+  logging.info && console.info("changeHashFile : " + url);
+
+  _jquery["default"].ajax(url, {
+    headers: {
+      _token_: token
+    },
+    method: "GET",
+    cache: false,
+    accepts: {
+      json: "application/json"
+    },
+    success: function success(response) {
+      (0, _jquery["default"])(".selected-quality").html(quality);
+      logging.info && console.info("changing hashFile done");
+      hash = hashFile;
+      startPlayingVideo(false);
+      setTimeout(function () {
+        logging.info && console.log("changeHashFile", response);
+        initManifestData(response.manifest + "");
+        initSourceBuffer();
+        domElements.video.currentTime = 0;
+        pause = false;
+        domElements.video.play();
+      }, 2000);
+    },
+    error: function error(jqXhr, textStatus, errorMessage) {
+      // error callback
+      pause = false;
+      logging.error && console.error(errorMessage);
+    }
+  });
+}
+
+function initManifestData(manifest) {
+  logging.info && console.log(manifest);
+  var xmlDoc = parser.parseFromString(manifest, "text/xml");
+  totalSegmentCount = parseInt(xmlDoc.getElementsByTagName("segment-count")[0].childNodes[0].nodeValue - 1);
+  segmentDuration = xmlDoc.getElementsByTagName("segment-duration-seconds")[0].childNodes[0].nodeValue;
+  mimeCodec = 'video/mp4; codecs="' + xmlDoc.getElementsByTagName("codec")[0].childNodes[0].nodeValue + '"';
+  logging.info && console.info("total-segment-count:" + totalSegmentCount, "segment-duration-seconds: " + segmentDuration, "mimeCodec: " + mimeCodec);
+  playaVideo.HD.menu.innerHTML = "";
+
+  var _loop = function _loop(i) {
+    var qu = xmlDoc.getElementsByTagName("quality")[i].getAttribute("name");
+    var li = document.createElement('li');
+    li.innerText = qu;
+    li.addEventListener("click", function () {
+      changeQuality(qu);
+    });
+    playaVideo.HD.menu.appendChild(li);
+  };
+
+  for (var i = 0; i < xmlDoc.getElementsByTagName("quality").length; i++) {
+    _loop(i);
+  }
+}
+
+function initSourceBuffer() {
+  sourceBuffer = mediaSource.addSourceBuffer(mimeCodec);
+  logging.info && console.info("MediaSource support mimeCodec: " + MediaSource.isTypeSupported(mimeCodec));
+  sourceBuffer.addEventListener("error", function (ev) {
+    logging.error && console.error("error to update buffer:" + ev);
+  });
+  createFetchingInterval();
+}
+
+function removeBuffered() {
+  try {
+    sourceBuffer.remove(0, domElements.video.duration);
+  } catch (e) {}
+}
+
+function registerAndSeek(segment) {
+  register(true, segment);
+}
+
+function abortRecentRequests() {
+  try {
+    /*--------------------- Abort all of recent requests ---------------------*/
+    while ((requestsList === null || requestsList === void 0 ? void 0 : requestsList.length) > 0) {
+      var req = requestsList.pop();
+      if (req.readyState !== 4) req.abort();
+    }
+  } catch (e) {}
+}
+
+function SDKInit(parameters) {
+  params = parameters;
+
+  if (params.logging) {
+    logging.error = !!params.logging.error;
+    logging.warning = !!params.logging.warning;
+    logging.debug = !!params.logging.debug;
+    logging.info = !!params.logging.info;
+  }
+
+  environment = params.env || 'main';
+  token = params.token || "ed24e37c7ee84313acf2805a80122f94";
+  hash = params.hash;
+  baseUrl = communicationServers[environment].baseUrl;
+  quality = params.quality || 240;
+  containerId = params.containerId;
+  createElements();
+  return SDK;
+}
+
+if (typeof window !== "undefined") {
+  if (!window.POD) window.POD = {};
+  window.POD.OFFLINEPLAYERSDK = SDKInit;
+}
+
+var _default = SDKInit;
+exports["default"] = _default;
+
+},{"./css/player.css":4,"./css/style.css":5,"./js/controller.js":7,"./loading.json":8,"@lottiefiles/lottie-player":1,"jquery":3}],7:[function(require,module,exports){
+"use strict";
+
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+    Object.defineProperty(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  Object.defineProperty(Constructor, "prototype", {
+    writable: false
+  });
+  return Constructor;
+}
+
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+var prefix = ['', 'moz', 'webkit', 'ms'].find(function (p) {
+  return !p ? 'fullscreenElement' in document : p + 'FullScreenElement' in document;
+});
+var fullScreen = {
+  state: function state(elem) {
+    return document[prefix ? prefix + 'FullScreenElement' : 'fullscreenElement'] === elem;
+  },
+  request: function request(elem) {
+    return elem[prefix ? prefix + 'RequestFullscreen' : 'requestFullscreen']();
+  },
+  toggle: function toggle(elem) {
+    return fullScreen.state(elem) ? fullScreen.exit(elem) : fullScreen.request(elem);
+  },
+  exit: function exit(elem) {
+    return document[prefix ? prefix + 'ExitFullscreen' : 'exitFullscreen']();
+  }
+};
+
+var timeCalc = function timeCalc(time) {
+  var seconds = Math.floor(time);
+  return seconds < 10 ? "0:0" + seconds : seconds < 60 ? '0:' + seconds : seconds === 60 ? "1:00" : Math.floor(seconds / 60) + ":" + (seconds % 60 < 10 ? "0" : "") + +seconds % 60;
+};
+
+var Playa = /*#__PURE__*/_createClass(function Playa(elem) {
+  _classCallCheck(this, Playa);
+
+  return new defaultPlayer(elem);
+});
+
+var defaultPlayer = /*#__PURE__*/function () {
+  function defaultPlayer(video) {
+    var _this = this;
+
+    _classCallCheck(this, defaultPlayer);
+
+    var video_old = video;
+    this.video = video_old.cloneNode(true);
+
+    if (this.video.preload === "none" || this.video.getAttribute("preload") === null) {
+      this.video.preload = "metadata";
+    } // create wrappers and controls
+
+
+    this.controls = {};
+    this.timer = {};
+    this.timer.flag = this._createElement("div", {
+      className: "timer-flag"
+    });
+    this.timer.counter = this._createElement("span", {
+      className: "counter"
+    });
+    this.track = {};
+    this.track.loadedbar = this._createElement("canvas", {
+      className: "track-loader-bar"
+    });
+    this.track.picker = this._createElement("span", {});
+    this.track.circle = this._createElement("span", {
+      className: "track-circle"
+    });
+    this.track.bar = this._createElement("div", {
+      className: "track-bar"
+    }, [this.track.picker, this.track.circle]);
+    this.track.inner = this._createElement("div", {
+      className: "track-inner"
+    }, [this.track.loadedbar, this.track.bar, this.timer.flag]);
+    this.track.track = this._createElement("div", {
+      className: "track"
+    }, [this.track.inner]);
+    this.volume = {};
+    this.volume.muteButton = this._createElement("i", {
+      className: "mute-button icon"
+    });
+    this.volume.button = this._createElement("input", {
+      className: "volume-button",
+      type: "range"
+    });
+    this.volume.container = this._createElement("span", {
+      className: "volume-container"
+    }, [this.volume.button, this.volume.muteButton]);
+    this.fullscreenButton = this._createElement("i", {
+      className: "fullscreen-button icon"
+    });
+    this.skipToTime = video.getAttribute('time') || video.getAttribute('date-time');
+    this.HD = {};
+    this.HD.button = this._createElement("i", {
+      className: "hd-button icon"
+    });
+    this.HD.menu = this._createElement("ul", {
+      className: "hd-menu"
+    });
+    this.HD.selectedQuality = this._createElement("span", {
+      className: "selected-quality"
+    });
+    this.HD.wrapper = this._createElement("div", {
+      className: "hd-wrapper"
+    }, [this.HD.button, this.HD.menu, this.HD.selectedQuality]);
+    this.playPauseButton = this._createElement("i", {
+      className: "play-button icon"
+    });
+    this.ct = this._createElement("div", {
+      className: "button-bar"
+    }, [this.timer.counter, this.HD.wrapper, this.playPauseButton, this.volume.container, this.fullscreenButton]);
+    this.controls.bottomtray = this._createElement("div", {
+      className: "controls-bottom-tray"
+    }, [this.track.track, this.ct]);
+    this.controls.wrapper = this._createElement("div", {
+      className: "controls-wrapper invisible"
+    }, [this.controls.bottomtray]);
+    this.wrapper = this._createElement("div", {
+      className: "responsive-video"
+    }, [this.video, this.controls.wrapper]);
+
+    var addDisableClass = this._debounce(function () {
+      _this.controls.wrapper.classList.add("disable");
+    });
+
+    this.lastWatchTime = null;
+    video_old.parentNode.replaceChild(this.wrapper, video_old);
+
+    if (this.video.autoplay) {
+      this.playToggle();
+    }
+
+    document.addEventListener("keydown", function (evt) {
+      if (document.activeElement === _this.video && evt.which === 32) {
+        evt.preventDefault();
+
+        _this.playToggle();
+      }
+    });
+    this.controls.wrapper.addEventListener("mousemove", function (evt) {
+      _this.controls.wrapper.classList.remove("disable");
+
+      if (fullScreen.state(_this.wrapper)) addDisableClass();
+    });
+    this.video.setAttribute("tabindex", 0);
+    this.video.addEventListener("loadeddata", function (evt) {
+      var ratio = _this.video.videoHeight / _this.video.videoWidth;
+
+      _this.wrapper.classList.add("loaded");
+
+      _this.wrapper.style.paddingTop = ratio * 100 + "%";
+
+      _this.controls.wrapper.classList.remove("invisible");
+
+      _this.timer.counter.innerHTML = timeCalc(0) + "/" + timeCalc(_this.video.duration);
+
+      if (_this.skipToTime) {
+        _this.video.currentTime = _this.skipToTime;
+        _this.track.bar.style.width = _this.skipToTime / _this.video.duration * 100 + "%";
+        _this.track.circle.style.left = _this.track.bar.style.width;
+      }
+
+      if (_this.lastWatchTime) {
+        _this.video.currentTime = _this.lastWatchTime;
+        _this.track.bar.style.width = _this.lastWatchTime / _this.video.duration * 100 + "%";
+        _this.track.circle.style.left = _this.track.bar.style.width;
+        _this.lastWatchTime = null;
+
+        _this.video.play();
+      } // todo check video sources
+      // let videoSources = this.video.querySelectorAll('source[src$="'+this.video.currentSrc.split(".").pop()+'"]');
+      // if (videoSources.length) {
+      //     let currentVideoSource = this.video.querySelector('source[src="'+this.video.currentSrc+'"]');
+      //     this.wrapper.style.setProperty('--quality', currentVideoSource.getAttribute("size"));
+      //
+      //     this.HD.menu.innerHTML = "";
+      //     videoSources.forEach((source) => {
+      //         let li = document.createElement('li');
+      //         li.innerText = source.getAttribute("size");
+      //         li.addEventListener("click", () => {
+      //             this.lastWatchTime = this.video.currentTime;
+      //             this.video.setAttribute("src", source.getAttribute("src"));
+      //             //this.wrapper.style.setProperty('--quality', source.getAttribute("size"));
+      //         });
+      //         this.HD.menu.appendChild(li);
+      //     });
+      // }
+      // todo check textTrack
+      // const textTrack = Array.from(this.video.textTracks).find((track) => track.mode === "showing");
+      // if (textTrack) {
+      //     console.log(textTrack, textTrack.cues)
+      //     //textTrack.mode = 'hidden';
+      //     textTrack.oncuechange = function(e) { console.log("pp")
+      //         var cue = this.activeCues[0];
+      //         if (cue) {
+      //             //span.innerHTML = '';
+      //             //span.appendChild(cue.getCueAsHTML());
+      //             console.log(cue.getCueAsHTML());
+      //         }
+      //     }
+      // }
+
+    });
+    this.track.inner.addEventListener("mousemove", function (evt) {
+      var seek = evt.offsetX / _this.track.inner.clientWidth * _this.video.duration;
+      _this.timer.flag.innerHTML = timeCalc(seek);
+      _this.timer.flag.style.left = evt.offsetX + "px";
+      _this.track.picker.style.left = evt.offsetX + "px";
+    });
+    this.track.picker.addEventListener("mousemove", function (evt) {
+      evt.stopPropagation();
+    });
+    this.track.picker.addEventListener("click", function (evt) {
+      evt.stopPropagation();
+
+      var percentage = parseInt(_this.track.picker.style.left.replace("px", "")) / _this.track.inner.clientWidth;
+
+      var seek = percentage * _this.video.duration;
+      _this.track.bar.style.width = 100 * percentage + "%";
+      _this.track.circle.style.left = _this.track.bar.style.width;
+      _this.timer.counter.innerHTML = timeCalc(seek) + "/" + timeCalc(_this.video.duration);
+      _this.video.currentTime = seek;
+    });
+    this.playPauseButton.addEventListener("click", function () {
+      _this.playToggle();
+    });
+    this.video.addEventListener("progress", function () {
+      if (_this.video.duration) {
+        _this._drawProgress(_this.track.loadedbar, _this.video.buffered, _this.video.duration);
+      }
+    });
+    this.video.addEventListener("timeupdate", function () {
+      return _this._timerWatch();
+    });
+    this.video.addEventListener("play", function () {
+      _this.video.classList.add("playing");
+    });
+    this.video.addEventListener("pause", function () {
+      _this.video.classList.remove("playing");
+    });
+    this.video.addEventListener("ended", function () {
+      _this.track.bar.style.width = "100%";
+      _this.track.circle.style.left = _this.track.bar.style.width;
+      _this.timer.counter.innerHTML = parseFloat(_this.video.duration);
+    });
+    this.track.inner.addEventListener("click", function (evt) {
+      var percentage = evt.offsetX / _this.track.inner.clientWidth;
+      var seek = percentage * _this.video.duration;
+      _this.track.bar.style.width = 100 * percentage + "%";
+      _this.track.circle.style.left = _this.track.bar.style.width;
+      _this.timer.counter.innerHTML = timeCalc(seek) + "/" + timeCalc(_this.video.duration);
+      _this.video.currentTime = seek;
+    });
+    this.fullscreenButton.addEventListener("click", function (evt) {
+      evt.stopPropagation();
+
+      if (fullScreen.state(_this.wrapper)) {
+        _this.fullscreenButton.classList.remove("active");
+      } else {
+        _this.fullscreenButton.classList.add("active");
+      }
+
+      fullScreen.toggle(_this.wrapper);
+    });
+    this.volume.muteButton.addEventListener("click", function () {
+      _this.video.muted = !_this.video.muted;
+
+      if (_this.video.muted) {
+        _this.volume.muteButton.setAttribute("active", "");
+      } else {
+        _this.volume.muteButton.removeAttribute("active");
+      }
+    });
+    this.volume.button.addEventListener("input", function () {
+      _this.video.volume = _this.volume.button.value / 100;
+
+      _this.wrapper.style.setProperty('--volume', _this.value + "%");
+    });
+    this.HD.button.addEventListener("click", function () {
+      _this.HD.wrapper.classList.toggle("active");
+    });
+    this.HD.button.addEventListener("mousemove", function () {
+      _this.HD.wrapper.classList.add("active");
+    });
+    this.HD.menu.addEventListener("mouseleave", function () {
+      _this.HD.wrapper.classList.remove("active");
+    });
+    this.HD.wrapper.addEventListener("mouseleave", function () {
+      _this.HD.wrapper.classList.remove("active");
+    });
+    this.HD.wrapper.addEventListener("mouseenter", function () {
+      _this.HD.wrapper.classList.add("active");
+    });
+    this.controls.wrapper.addEventListener("click", function (evt) {
+      _this.playToggle();
+    });
+    this.controls.bottomtray.addEventListener("click", function (evt) {
+      evt.stopPropagation();
+    });
+    this.video.volume = .5;
+    this.volume.button.value = 50;
+    this.wrapper.style.setProperty('--volume', "50%");
+  }
+
+  _createClass(defaultPlayer, [{
+    key: "_timerWatch",
+    value: function _timerWatch() {
+      if (!this.video.paused) {
+        var percentage = this.video.currentTime / this.video.duration * 100;
+        this.video.parentNode.querySelector(".track-bar").style.width = percentage + "%";
+        this.video.parentNode.querySelector(".track-circle").style.left = this.video.parentNode.querySelector(".track-bar").style.width;
+        this.video.parentNode.querySelector(".counter").innerHTML = timeCalc(this.video.currentTime) + "/" + timeCalc(this.video.duration);
+      }
+    }
+  }, {
+    key: "_createElement",
+    value: function _createElement(tag, attrs, content) {
+      var el = document.createElement(tag);
+
+      if (attrs) {
+        Object.keys(attrs).forEach(function (attr) {
+          return el.setAttribute(attr === "className" ? "class" : attr, attrs[attr]);
+        });
+      }
+
+      if (content) {
+        if (Array.isArray(content)) {
+          content.forEach(function (item) {
+            return el.appendChild(item);
+          });
         } else {
-            jquery = window.jQuery;
+          el.innerHTML = content;
         }
+      }
 
-        playaController = window.Playa;
-
-        const
-            selfInstance = this
-            , afterBufferSecond = 20
-            , beforeBufferSecond = 10
-            , parser = new DOMParser()
-            , maxRequestNumber = 10
-            , logging = {
-                error:  false,
-                warning: false,
-                debug:  false,
-                info: false
-            }
-
-            if(params.logging) {
-                logging.error = !!params.logging.error;
-                logging.warning = !!params.logging.warning;
-                logging.debug = !!params.logging.debug;
-                logging.info = !!params.logging.info;
-            }
-
-        let
-            requestsList = []
-            , mimeCodec = 'video/mp4; codecs="avc1.64001f"'
-            , mediaSource
-            , totalSegmentCount = 0
-            , segmentDuration = 0
-            , consumeLink = ''
-            , produceLink = ''
-            , currentSegment = -1
-            , pause = false
-            , sourceBuffer
-            , fetchingIntervalStart = null
-            , currentRequestNumber = 0
-            , seekingSetTimeout = null
-
-            , environment = params.env || 'main'
-            , communicationServers = {
-                // Main Server
-                main: {
-                    baseUrl: "https://offline-stream.pod.ir"
-                },
-                // Sand Box Server
-                sandbox: {
-                    baseUrl: "https://sandbox-offline-stream.pod.ir"
-                },
-                // Integration Server
-                integration: {
-                    baseUrl: "http://192.168.112.32"
-                }
-            }
-            , token = params.token || "ed24e37c7ee84313acf2805a80122f94"
-            , hash = params.hash
-            , baseUrl = communicationServers[environment].baseUrl
-            , quality = params.quality || 240
-            , containerId = params.containerId
-            , domElements = {}
-            , playaVideo;
-
-        this.playMedia = function (params) {
-            hash = params.hash;
-            token = params.token;
-            quality = params.quality;
-            createElements();
-            const parentElement = document.getElementById(containerId);
-            parentElement.appendChild(domElements.container);
-            playaVideo = new playaController(domElements.video);
-            domElements.video = document.getElementById("stream-video-tag")
-            resetParameters();
-            setTimeout(function (){
-                startPlayingVideo(true);
-            })
-        };
-
-        this.setToken = function (newToken) {
-            token = newToken
-        };
-
-        this.destroyVideo = function () {
-            abortRecentRequests();
-            resetParameters();
-            domElements = {};
-            document.getElementById("stream-video-container").remove()
-        }
-
-        function init() {
-            createElements();
-        }
-
-        function createElements() {
-            if(!document.getElementById("pod-comm-offline-sdk-materialicons"))
-                jquery("head").prepend("<link id='pod-comm-offline-sdk-materialicons' href=\"https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css\"    rel=\"stylesheet\">")
-
-            domElements.container = document.createElement("div");
-            domElements.container.setAttribute('class', "stream-video-container");
-            domElements.container.setAttribute('id', "stream-video-container");
-            domElements.container.style.position = "relative";
-
-            domElements.video = document.createElement("video")//document.querySelector("#myVideoTag") //= document.createElement("video")
-            domElements.video.setAttribute('playsinline', '');
-            domElements.video.setAttribute('id', "stream-video-tag");
-            domElements.video.setAttribute('class', "stream-video-tag");
-            // domElements.video.setAttribute('autoplay', "");
-            domElements.video.setAttribute('time', "0");
-            domElements.video.setAttribute('preload', "auto");
-
-            domElements.loader = document.createElement("lottie-player");
-            domElements.loader.setAttribute('class', "stream-loading lottie-loading hidden");
-            domElements.loader.setAttribute('id', "stream-loading");
-            domElements.loader.setAttribute('background', "transparent");
-            domElements.loader.setAttribute('speed', "1");
-            domElements.loader.setAttribute('loop', "");
-            domElements.loader.setAttribute('autoplay', "");
-
-            domElements.loader.setAttribute('src', JSON.stringify(loadingJSON));
-
-            domElements.container.appendChild(domElements.loader);
-            domElements.container.appendChild(domElements.video);
-        }
-
-        function setLoading(showLoading) {
-            if (showLoading) {
-                domElements.loader.classList.remove("hidden");
-            } else {
-                if(domElements.loader)
-                    domElements.loader.classList.add("hidden");
-            }
-        }
-
-        function resetParameters() {
-            currentRequestNumber = 0;
-            totalSegmentCount = 0;
-            segmentDuration = 0;
-            consumeLink = "";
-            produceLink = "";
-            currentSegment = -1;
-            pause = false;
-            if (fetchingIntervalStart != null) {
-                clearInterval(fetchingIntervalStart);
-                fetchingIntervalStart = null;
-            }
-            if (seekingSetTimeout != null) {
-                clearTimeout(seekingSetTimeout);
-                seekingSetTimeout = null;
-            }
-        }
-
-        function startPlayingVideo(callRegister) {
-            // Create Media Source
-            mediaSource = new MediaSource(); // mediaSource.readyState === 'closed'
-            // Attach media source to video element
-            domElements.video.src = URL.createObjectURL(mediaSource);
-
-            domElements.video.crossOrigin = "anonymous";
-            // Wait for media source to be open
-            mediaSource.addEventListener("sourceopen", function () {
-                mediaSource = this; // mediaSource.readyState === 'open'
-                if (callRegister)
-                    register();
-            });
-
-            domElements.video.addEventListener("seeking", (event) => {
-                if (!pause) {
-                    pause = true;
-                    seek();
-                }
-            });
-
-            domElements.video.addEventListener("timeupdate", () => {
-                if (!pause) setLoading(false);
-            });
-
-            domElements.video.addEventListener("waiting", (event) => {
-                setLoading(true);
-            });
-            domElements.video.addEventListener("suspend ", (event) => {
-                setLoading(true);
-            });
-            domElements.video.addEventListener("loadeddata", (event) => {
-                setLoading(false);
-            });
-            domElements.video.addEventListener("play", (event) => {
-                setLoading(false);
-            });
-            domElements.video.addEventListener("playing", (event) => {
-                setLoading(false);
-            });
-            domElements.video.addEventListener("seeked", (event) => {
-                setLoading(false);
-            });
-        }
-
-        function register(registerAgain = false, segment = currentSegment) {
-            jquery(".selected-quality").html(quality)
-            logging.info && console.info("register start");
-            const ajaxTime = new Date().getTime();
-            setLoading(true);
-            abortRecentRequests();
-            const url =
-                baseUrl +
-                "/register/?token=" +
-                token +
-                "&hashFile=" +
-                hash +
-                "&progressive=false&security=false&quality=" +
-                quality +
-                "&mobile=false";
-            jquery.ajax(url, {
-                headers: {
-                    _token_: token
-                },
-                method: "GET",
-                dataType: "json", // type of response data
-                cache: false,
-                accepts: {
-                    json: "application/json",
-                },
-                success: function (response, status, xhr) {
-                    // success callback function
-                    const totalTime = new Date().getTime() - ajaxTime;
-                    logging.info && console.info("register response after: " + totalTime);
-                    logging.info && console.info(response);
-                    setLoading(false);
-
-                    consumeLink = response.consumLink;
-                    produceLink = response.produceLink;
-                    logging.info && console.info("consumeLink:" + response.consumLink);
-                    logging.info && console.info("produceLink: " + response.produceLink);
-                    logging.info && console.info(
-                        "total-segment-count:" + totalSegmentCount,
-                        "segment-duration-seconds: " + segmentDuration,
-                        "mimeCodec: " + mimeCodec
-                    );
-
-                    if (!registerAgain) {
-                        initManifestData(response.manifest + "")
-                        initSourceBuffer();
-
-
-                        domElements.video.play().catch(error => {
-                            console.log(error)
-                        });
-
-
-                    } else {
-                        logging.info && console.info("SEEKING IN REGISTER")
-                        seekToSegment(segment);
-                    }
-                },
-                error: function (jqXhr, textStatus, errorMessage) {
-                    // error callback
-                    setLoading(false);
-                    logging.error && console.error(errorMessage);
-                },
-            });
-        }
-
-        function seek() {
-            domElements.video.pause();
-            if (seekingSetTimeout != null) {
-                clearTimeout(seekingSetTimeout);
-                seekingSetTimeout = null;
-            }
-            seekingSetTimeout = setTimeout(function () {
-                // const currentPlayingSegment = Math.max(parseInt(Math.floor(Math.floor(video.currentTime) / (segmentDuration / 1000))), 0);
-                // video.currentTime = currentPlayingSegment * (segmentDuration / 1000);
-                const serverSeekSegment = getServerSeekSegment();
-                seekToSegment(serverSeekSegment);
-                domElements.video.play();
-            }, 500)
-        }
-
-        function seekToSegment(segment) {
-            abortRecentRequests();
-            logging.info && console.info("seeking to segment: " + segment);
-            segment = Math.min(segment, totalSegmentCount)
-            const url = produceLink + "?segment=" + segment;
-            const seekRequest = jquery.ajax(url, {
-                headers: {
-                    _token_: token,
-                },
-                method: "GET",
-                dataType: "json", // type of response data
-                cache: false,
-                accepts: {
-                    json: "application/json",
-                },
-                success: function (response, status, xhr) {
-                    currentSegment = segment - 1;
-                    logging.info && console.info("seeking to segment done response: " + response);
-                    pause = false;
-                    requestsList.splice(requestsList.indexOf(seekRequest), 1);
-                },
-                statusCode: {
-                    404: function () {
-                        registerAndSeek(segment);
-                    },
-                },
-                error: function (jqXhr, textStatus, errorMessage) {
-                    // error callback
-                    requestsList.splice(requestsList.indexOf(seekRequest), 1);
-                    logging.error && console.error(errorMessage);
-                    pause = false;
-                }
-            });
-            requestsList.push(seekRequest);
-        }
-
-        function nextSegment() {
-            currentSegment = Math.max(currentSegment, -1);
-            if (currentSegment <= totalSegmentCount - 1) {
-                if (!checkBuffered(currentSegment + 1)) {
-                    currentSegment += 1;
-                    fetchArrayBuffer(currentSegment);
-                } else {
-                    const calculatedSegment = getServerSeekSegment();
-                    if (calculatedSegment >= totalSegmentCount || checkBufferedTime(calculatedSegment * (segmentDuration / 1000), (calculatedSegment + 1) * segmentDuration / 1000)) {
-                        logging.info && console.info("in buffered")
-                        currentSegment = calculatedSegment - 1;
-                    } else if (calculatedSegment < totalSegmentCount) {
-                        if (requestsList.length === 0) {
-                            logging.debug && console.debug("segment" + currentSegment + " read by cache buffer");
-                            pause = true;
-                            seekToSegment(calculatedSegment);
-                        }
-                    }
-                }
-            }
-        }
-
-        function checkBuffered(segment) {
-            try {
-                const ranges = sourceBuffer.buffered;
-                const currentTime = segment * (segmentDuration / 1000);
-                for (let i = 0, len = ranges.length; i < len; i += 1) {
-                    const endI = Math.ceil(ranges.end(i));
-                    if (ranges.start(i) < currentTime && currentTime <= endI) return true;
-                }
-            } catch (e) {
-                return false;
-            }
-            return false;
-        }
-
-        function getServerSeekSegment() {
-            try {
-                let ranges = sourceBuffer.buffered;
-                for (let i = 0, len = ranges.length; i < len; i += 1) {
-                    const endI = Math.ceil(ranges.end(i));
-                    if (ranges.start(i) <= domElements.video.currentTime && domElements.video.currentTime <= endI) {
-                        logging.debug && console.debug("FIND IN RANGE :  " + ranges.start(i) + " : " + endI)
-                        logging.debug && console.debug("FIND SEGMENT : " + Math.max(parseInt(Math.floor(Math.floor(endI) / (segmentDuration / 1000))), 0))
-                        return Math.max(parseInt(Math.floor(Math.floor(endI) / (segmentDuration / 1000))), 0) + 1;
-                    }
-                }
-            } catch (e) {
-                return Math.max(
-                    parseInt(Math.floor(Math.floor(domElements.video.currentTime) / (segmentDuration / 1000))),
-                    0) + 1;
-            }
-            return Math.max(
-                parseInt(Math.floor(Math.floor(domElements.video.currentTime) / (segmentDuration / 1000))),
-                0) + 1;
-        }
-
-        this.logBuffered = function () {
-            try {
-                let ranges = sourceBuffer.buffered;
-                logging.debug && console.debug("BUFFERED RANGES: " + ranges.length);
-                for (let i = 0, len = ranges.length; i < len; i += 1) {
-                    logging.debug && console.debug("RANGE: " + ranges.start(i) + " - " + ranges.end(i));
-                }
-            } catch (e) {
-                logging.error && console.error("log error" + e)
-            }
-        }
-
-        function fetchArrayBuffer(segment) {
-            const ajaxTime = new Date().getTime();
-            logging.info && console.info(consumeLink, "segment :" + segment);
-            logging.info && console.info("start to fetch bytes for segment: " + segment);
-            currentRequestNumber += 1;
-            const consumeReq = jquery.ajax(consumeLink, {
-                headers: {
-                    _token_: token,
-                },
-                method: "GET",
-                cache: false,
-                retryCount: 0,
-                data: {a: segment},
-                xhr: function () {
-                    const xhr = new XMLHttpRequest();
-                    xhr.responseType = "arraybuffer";
-                    return xhr;
-                },
-                success: function (response, status, xhr) {
-                    currentRequestNumber -= 1;
-                    const totalTime = new Date().getTime() - ajaxTime;
-                    logging.info && console.info(
-                        "response for segment:" +
-                        segment +
-                        " length: " +
-                        response.byteLength +
-                        " totalTime: " +
-                        totalTime
-                    );
-                    const appendIntVal = setInterval(() => {
-                        try {
-                            if (!sourceBuffer.updating) {
-                                sourceBuffer.appendBuffer(response);
-                                setTimeout(function () {
-                                    selfInstance.logBuffered();
-                                }, 200)
-                                clearInterval(appendIntVal);
-                            }
-                        } catch (e) {
-                            clearInterval(appendIntVal);
-                        }
-                    }, 150);
-                    requestsList.splice(requestsList.indexOf(consumeReq), 1);
-                },
-                statusCode: {
-                    410: function () {
-                        currentSegment--;
-                    },
-                    404: function () {
-                        registerAndSeek(currentSegment);
-                    },
-                },
-                error: function (jqXhr, textStatus, errorMessage) {
-                    // error callback
-                    requestsList.splice(requestsList.indexOf(consumeReq), 1);
-                    currentRequestNumber -= 1;
-                    logging.error && console.error(errorMessage);
-                },
-            });
-
-            requestsList.push(consumeReq);
-        }
-
-        function changeQuality(quality) {
-            pause = true;
-            domElements.video.pause();
-            abortRecentRequests();
-            const url = produceLink + "?quality=" + quality + "&segment=0";
-            const seekSegment = Math.floor(domElements.video.currentTime / (parseInt(segmentDuration) / 1000));
-            const ajaxTime = new Date().getTime();
-            logging.info && console.info("seeking : " + url);
-            jquery.ajax(url, {
-                headers: {
-                    _token_: token,
-                },
-                method: "GET",
-                cache: false,
-                accepts: {
-                    json: "application/json",
-                },
-                success: function () {
-                    jquery(".selected-quality").html(quality)
-                    const totalTime = new Date().getTime() - ajaxTime;
-                    logging.info && console.info("response for seeking totalTime: " + totalTime);
-                    removeBuffered();
-                    currentSegment = 0;
-                    fetchArrayBuffer(currentSegment);
-                    currentSegment = 1;
-                    fetchArrayBuffer(currentSegment);
-                    currentSegment = 3;
-                    fetchArrayBuffer(currentSegment);
-
-                    const seekIntVal = setInterval(() => {
-                        if (checkBufferedTime(0, 2 * segmentDuration / 1000)) {
-                            logging.info && console.log("seek start data has buffered")
-                            seekToSegment(seekSegment);
-                            domElements.video.play();
-                            clearInterval(seekIntVal);
-                        }
-                    }, 150);
-                },
-                error: function (jqXhr, textStatus, errorMessage) {
-                    // error callback
-                    pause = false;
-                    logging.error && console.error(errorMessage);
-                },
-            });
-        }
-
-        function checkBufferedTime(begin, end) {
-            try {
-                logging.info && console.log("checked buffered start:" + begin + "end :" + end)
-                const ranges = sourceBuffer.buffered;
-                for (let i = 0, len = ranges.length; i < len; i += 1) {
-                    const endI = String(ranges.end(i)).includes(".999999")
-                        ? parseFloat(ranges.end(i)) + 0.000001
-                        : ranges.end(i);
-                    logging.info && console.log("seek start" + ranges.start(i) + " end :" + endI)
-                    if (ranges.start(i) <= begin && end <= Math.ceil(endI)) return true;
-                }
-                return false;
-            } catch (e) {
-                return false;
-            }
-        }
-
-        function createFetchingInterval() {
-            if (fetchingIntervalStart == null) {
-                fetchingIntervalStart = setInterval(() => {
-                    if (consumeLink.length > 0 && !pause) {
-                        const currentPlayingSegment = Math.max(parseInt(Math.floor(Math.floor(domElements.video.currentTime) / (segmentDuration / 1000))), 0);
-                        if (!pause && currentRequestNumber <= maxRequestNumber && currentSegment <= totalSegmentCount - 1 && getServerSeekSegment() < currentPlayingSegment + afterBufferSecond / (segmentDuration / 1000) + 1) {
-                            nextSegment();
-                        }
-                    }
-                    if (!pause && !sourceBuffer.updating && domElements.video.currentTime > beforeBufferSecond) {
-                        const endRemove = Math.max(parseInt(Math.floor(Math.floor(domElements.video.currentTime) / (segmentDuration / 1000))), 0) * (segmentDuration / 1000) - beforeBufferSecond;
-                        if (endRemove !== 0)
-                            sourceBuffer.remove(0, endRemove);
-                    }
-                }, 500);
-            }
-        }
-
-        function changeHashFile(hashFile, token, quality) {
-            pause = true;
-            domElements.video.pause();
-            const url = produceLink + "?quality=" + quality + "&hashFile=" + hashFile;
-            logging.info && console.info("changeHashFile : " + url);
-            jquery.ajax(url, {
-                headers: {
-                    _token_: token,
-                },
-                method: "GET",
-                cache: false,
-                accepts: {
-                    json: "application/json",
-                },
-                success: function (response) {
-                    jquery(".selected-quality").html(quality)
-                    logging.info && console.info("changing hashFile done");
-                    hash = hashFile;
-                    startPlayingVideo(false)
-                    setTimeout(function () {
-                        logging.info && console.log("changeHashFile", response)
-                        initManifestData(response.manifest + "")
-                        initSourceBuffer();
-                        domElements.video.currentTime = 0;
-                        pause = false;
-                        domElements.video.play()
-                    }, 2000)
-                },
-                error: function (jqXhr, textStatus, errorMessage) {
-                    // error callback
-                    pause = false;
-                    logging.error && console.error(errorMessage);
-                },
-            });
-        }
-
-        function initManifestData(manifest) {
-            logging.info && console.log(manifest)
-            const xmlDoc = parser.parseFromString(manifest, "text/xml");
-            totalSegmentCount = parseInt(
-                xmlDoc.getElementsByTagName("segment-count")[0].childNodes[0].nodeValue - 1
-            );
-            segmentDuration = xmlDoc.getElementsByTagName("segment-duration-seconds")[0]
-                .childNodes[0].nodeValue;
-            mimeCodec =
-                'video/mp4; codecs="' +
-                xmlDoc.getElementsByTagName("codec")[0].childNodes[0].nodeValue +
-                '"';
-            logging.info && console.info(
-                "total-segment-count:" + totalSegmentCount,
-                "segment-duration-seconds: " + segmentDuration,
-                "mimeCodec: " + mimeCodec
-            );
-
-
-            playaVideo.HD.menu.innerHTML = "";
-
-            for (let i = 0; i < xmlDoc.getElementsByTagName("quality").length; i++) {
-                const qu = xmlDoc.getElementsByTagName("quality")[i].getAttribute("name");
-                let li = document.createElement('li');
-                li.innerText = qu;
-                li.addEventListener("click", () => {
-                    changeQuality(qu);
-                });
-                playaVideo.HD.menu.appendChild(li);
-            }
-        }
-
-        function initSourceBuffer() {
-            sourceBuffer = mediaSource.addSourceBuffer(mimeCodec);
-            logging.info && console.info("MediaSource support mimeCodec: " + MediaSource.isTypeSupported(mimeCodec));
-            sourceBuffer.addEventListener("error", function (ev) {
-                logging.error && console.error("error to update buffer:" + ev);
-            });
-
-            createFetchingInterval()
-        }
-
-        function removeBuffered() {
-            try {
-                sourceBuffer.remove(0, domElements.video.duration);
-            } catch (e) {
-
-            }
-        }
-
-        function registerAndSeek(segment) {
-            register(true, segment);
-        }
-
-        function abortRecentRequests() {
-            try {
-                /*--------------------- Abort all of recent requests ---------------------*/
-                while (requestsList?.length > 0) {
-                    const req = requestsList.pop();
-                    if (req.readyState !== 4) req.abort();
-                }
-            } catch (e) {
-
-            }
-        }
-
-        init();
+      return el;
     }
-    if(typeof module !== "undefined") {
-        module.exports = OfflinePlayerSDK
+  }, {
+    key: "_debounce",
+    value: function _debounce(func) {
+      var _this2 = this;
+
+      var timeout = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 2000;
+      var timer;
+      return function () {
+        for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+          args[_key] = arguments[_key];
+        }
+
+        clearTimeout(timer);
+        timer = setTimeout(function () {
+          func.apply(_this2, args);
+        }, timeout);
+      };
     }
-    window.POD = {};
-    window.POD.OFFLINEPLAYERSDK = OfflinePlayerSDK;
+  }, {
+    key: "_drawProgress",
+    value: function _drawProgress(canvas, buffered, duration) {
+      var context = canvas.getContext('2d', {
+        antialias: false
+      });
+      context.fillStyle = '#F464534C';
+      var width = canvas.width;
+      var height = canvas.height;
+      if (!width || !height) throw "Canvas's width or height weren't set!";
+      context.clearRect(0, 0, width, height); // clear canvas
 
-})();
-
-},{"../loading.json":2,"./css/player.css":6,"./css/style.css":7,"./js/controller.js":9,"@lottiefiles/lottie-player":3,"jquery":5}],9:[function(require,module,exports){
-(function() {
-    const prefix = ['','moz', 'webkit', 'ms'].find((p) => !p ? ('fullscreenElement' in document) : (p + 'FullScreenElement' in document));
-
-    const fullScreen = {
-        state: (elem)  => document[prefix?(prefix+'FullScreenElement'):'fullscreenElement'] === elem,
-        request: (elem) => elem[prefix?(prefix+'RequestFullscreen'):'requestFullscreen'](),
-        toggle: (elem) => fullScreen.state(elem) ? fullScreen.exit(elem) : fullScreen.request(elem),
-        exit: (elem) => document[prefix?(prefix+'ExitFullscreen'):'exitFullscreen']()
-    };
-
-    const timeCalc = function(time) {
-        let seconds = Math.floor(time);
-        return (seconds < 10) ? ("0:0" + seconds) :
-            (seconds < 60) ? ('0:' + seconds) :
-                (seconds === 60) ? "1:00" :
-                    (( Math.floor(seconds/60) + ":" + (seconds%60 < 10 ? "0" : "") +  + seconds%60));
-    };
-
-    class Playa {
-        constructor(elem) {
-            return new defaultPlayer(elem);
-        }
+      for (var i = 0; i < buffered.length; i++) {
+        var leadingEdge = buffered.start(i) / duration * width;
+        var trailingEdge = buffered.end(i) / duration * width;
+        context.fillRect(leadingEdge, 0, trailingEdge - leadingEdge, height);
+      }
     }
+  }, {
+    key: "playToggle",
+    value: function playToggle() {
+      if (this.video.paused) {
+        this.video.classList.add("playing");
+        this.video.play();
 
-    class defaultPlayer {
-        constructor(video) {
-
-            let video_old = video;
-            this.video = video_old.cloneNode(true);
-
-            if (this.video.preload === "none" || this.video.getAttribute("preload") === null) {
-                this.video.preload = "metadata";
-            }
-            // create wrappers and controls
-            this.controls = {};
-            this.timer = {};
-            this.timer.flag = this._createElement("div", {className: "timer-flag"});
-            this.timer.counter = this._createElement("span", {className: "counter"});
-            this.track = {};
-            this.track.loadedbar = this._createElement("canvas", {className: "track-loader-bar"});
-            this.track.picker = this._createElement("span", {});
-            this.track.circle = this._createElement("span", {className: "track-circle"});
-            this.track.bar = this._createElement("div", {className: "track-bar"}, [this.track.picker, this.track.circle]);
-            this.track.inner = this._createElement("div", {className: "track-inner"}, [this.track.loadedbar, this.track.bar, this.timer.flag]);
-            this.track.track = this._createElement("div", {className: "track"}, [this.track.inner]);
-            this.volume = {};
-            this.volume.muteButton = this._createElement("i", {className: "mute-button icon"});
-            this.volume.button = this._createElement("input", {className: "volume-button", type: "range"});
-            this.volume.container = this._createElement("span", {className: "volume-container"}, [this.volume.button, this.volume.muteButton]);
-            this.fullscreenButton = this._createElement("i", {className: "fullscreen-button icon"});
-            this.skipToTime = (video.getAttribute('time') || video.getAttribute('date-time'));
-            this.HD = {};
-            this.HD.button = this._createElement("i", {className: "hd-button icon"});
-            this.HD.menu = this._createElement("ul", {className: "hd-menu"});
-            this.HD.selectedQuality = this._createElement("span", {className: "selected-quality"});
-            this.HD.wrapper = this._createElement("div", {className: "hd-wrapper"}, [this.HD.button, this.HD.menu, this.HD.selectedQuality]);
-
-            this.playPauseButton = this._createElement("i", {className: "play-button icon"});
-
-            this.ct = this._createElement("div", {className: "button-bar"}, [this.timer.counter,
-                this.HD.wrapper,
-                this.playPauseButton,
-                this.volume.container,
-                this.fullscreenButton]);
-
-            this.controls.bottomtray = this._createElement("div", {className: "controls-bottom-tray"}, [
-                this.track.track,
-                this.ct
-            ]);
-            this.controls.wrapper = this._createElement("div", {className: "controls-wrapper invisible"}, [
-                this.controls.bottomtray
-            ]);
-            this.wrapper = this._createElement("div", {className: "responsive-video"}, [this.video, this.controls.wrapper]);
-            const addDisableClass = this._debounce(() => {
-                this.controls.wrapper.classList.add("disable")
-            });
-
-            this.lastWatchTime = null;
-
-            video_old.parentNode.replaceChild(this.wrapper, video_old);
-
-            if (this.video.autoplay) {
-                this.playToggle();
-            }
-
-            document.addEventListener("keydown", (evt) => {
-                if (document.activeElement === this.video && evt.which === 32) {
-                    evt.preventDefault();
-                    this.playToggle();
-                }
-            })
-
-            this.controls.wrapper.addEventListener("mousemove", (evt) => {
-                this.controls.wrapper.classList.remove("disable")
-                if (fullScreen.state(this.wrapper))
-                    addDisableClass()
-            });
-
-            this.video.setAttribute("tabindex", 0);
-
-            this.video.addEventListener("loadeddata", (evt) => {
-
-                const ratio = (this.video.videoHeight / this.video.videoWidth);
-                this.wrapper.classList.add("loaded");
-                this.wrapper.style.paddingTop = (ratio * 100) + "%";
-
-                this.controls.wrapper.classList.remove("invisible")
-                this.timer.counter.innerHTML = timeCalc(0) + "/" + timeCalc(this.video.duration);
-
-                if ( this.skipToTime ) {
-                    this.video.currentTime = this.skipToTime;
-                    this.track.bar.style.width = (this.skipToTime/this.video.duration)*100 + "%";
-                    this.track.circle.style.left = this.track.bar.style.width;
-
-                }
-
-                if (this.lastWatchTime) {
-                    this.video.currentTime = this.lastWatchTime;
-                    this.track.bar.style.width = (this.lastWatchTime/this.video.duration)*100 + "%";
-                    this.track.circle.style.left = this.track.bar.style.width
-                    this.lastWatchTime = null;
-                    this.video.play();
-                }
-
-                // todo check video sources
-                // let videoSources = this.video.querySelectorAll('source[src$="'+this.video.currentSrc.split(".").pop()+'"]');
-                // if (videoSources.length) {
-                //     let currentVideoSource = this.video.querySelector('source[src="'+this.video.currentSrc+'"]');
-                //     this.wrapper.style.setProperty('--quality', currentVideoSource.getAttribute("size"));
-                //
-                //     this.HD.menu.innerHTML = "";
-                //     videoSources.forEach((source) => {
-                //         let li = document.createElement('li');
-                //         li.innerText = source.getAttribute("size");
-                //         li.addEventListener("click", () => {
-                //             this.lastWatchTime = this.video.currentTime;
-                //             this.video.setAttribute("src", source.getAttribute("src"));
-                //             //this.wrapper.style.setProperty('--quality', source.getAttribute("size"));
-                //         });
-                //         this.HD.menu.appendChild(li);
-                //     });
-                // }
-
-                // todo check textTrack
-                // const textTrack = Array.from(this.video.textTracks).find((track) => track.mode === "showing");
-                // if (textTrack) {
-                //     console.log(textTrack, textTrack.cues)
-                //     //textTrack.mode = 'hidden';
-                //     textTrack.oncuechange = function(e) { console.log("pp")
-                //         var cue = this.activeCues[0];
-                //         if (cue) {
-                //             //span.innerHTML = '';
-                //             //span.appendChild(cue.getCueAsHTML());
-                //             console.log(cue.getCueAsHTML());
-                //         }
-                //     }
-                // }
-
-            });
-
-            this.track.inner.addEventListener("mousemove", (evt) => {
-                let seek = (evt.offsetX / this.track.inner.clientWidth) * this.video.duration;
-                this.timer.flag.innerHTML = timeCalc(seek);
-                this.timer.flag.style.left = evt.offsetX + "px";
-                this.track.picker.style.left = evt.offsetX + "px";
-            });
-
-            this.track.picker.addEventListener("mousemove", (evt) => {
-                evt.stopPropagation();
-            });
-
-            this.track.picker.addEventListener("click", (evt) => {
-                evt.stopPropagation();
-                let percentage = (parseInt(this.track.picker.style.left.replace("px", ""))
-                    / this.track.inner.clientWidth);
-                let seek = percentage * this.video.duration;
-                this.track.bar.style.width = 100 * percentage + "%";
-                this.track.circle.style.left = this.track.bar.style.width;
-                this.timer.counter.innerHTML = timeCalc(seek) + "/" + timeCalc(this.video.duration);
-                this.video.currentTime = seek;
-            });
-
-            this.playPauseButton.addEventListener("click", () => {
-                this.playToggle();
-            });
-
-            this.video.addEventListener("progress", () => {
-                if (this.video.duration) {
-                    this._drawProgress(this.track.loadedbar, this.video.buffered, this.video.duration);
-                }
-            });
-
-            this.video.addEventListener("timeupdate", () => this._timerWatch());
-
-            this.video.addEventListener("play", () => {
-                this.video.classList.add("playing");
-            });
-
-            this.video.addEventListener("pause", () => {
-                this.video.classList.remove("playing");
-            });
-
-            this.video.addEventListener("ended", () => {
-                this.track.bar.style.width = "100%";
-                this.track.circle.style.left = this.track.bar.style.width;
-                this.timer.counter.innerHTML = parseFloat(this.video.duration);
-            });
-
-            this.track.inner.addEventListener("click", (evt) => {
-                let percentage = (evt.offsetX / this.track.inner.clientWidth);
-                let seek = percentage * this.video.duration;
-
-                this.track.bar.style.width = 100 * percentage + "%";
-                this.track.circle.style.left = this.track.bar.style.width;
-                this.timer.counter.innerHTML = timeCalc(seek) + "/" + timeCalc(this.video.duration);
-                this.video.currentTime = seek;
-            });
-
-            this.fullscreenButton.addEventListener("click", (evt) => {
-                evt.stopPropagation();
-                if (fullScreen.state(this.wrapper)) {
-                    this.fullscreenButton.classList.remove("active")
-                } else {
-                    this.fullscreenButton.classList.add("active")
-                }
-                fullScreen.toggle(this.wrapper);
-            });
-
-            this.volume.muteButton.addEventListener("click", () => {
-                this.video.muted = !this.video.muted;
-                if (this.video.muted) {
-                    this.volume.muteButton.setAttribute("active", "");
-                } else {
-                    this.volume.muteButton.removeAttribute("active");
-                }
-            });
-
-            this.volume.button.addEventListener("input", () => {
-                this.video.volume = this.volume.button.value / 100;
-                this.wrapper.style.setProperty('--volume', this.value + "%");
-            });
-
-            this.HD.button.addEventListener("click", () => {
-                this.HD.wrapper.classList.toggle("active");
-            });
-
-            this.HD.button.addEventListener("mousemove", () => {
-                this.HD.wrapper.classList.add("active");
-            });
-
-            this.HD.menu.addEventListener("mouseleave", () => {
-                this.HD.wrapper.classList.remove("active");
-            });
-
-            this.HD.wrapper.addEventListener("mouseleave", () => {
-                this.HD.wrapper.classList.remove("active");
-            });
-
-            this.HD.wrapper.addEventListener("mouseenter", () => {
-                this.HD.wrapper.classList.add("active");
-            });
-
-            this.controls.wrapper.addEventListener("click", (evt) => {
-                this.playToggle();
-            });
-
-            this.controls.bottomtray.addEventListener("click", function (evt) {
-                evt.stopPropagation();
-            });
-
-            this.video.volume = .5;
-            this.volume.button.value = 50;
-            this.wrapper.style.setProperty('--volume', "50%");
+        if (this.video.preload !== "auto") {
+          this.video.preload = "auto";
         }
 
-        _timerWatch() {
-            if (!this.video.paused) {
-                let percentage = (this.video.currentTime / this.video.duration) * 100;
-                this.video.parentNode.querySelector(".track-bar").style.width = percentage + "%";
-                this.video.parentNode.querySelector(".track-circle").style.left = this.video.parentNode.querySelector(".track-bar").style.width;
-                this.video.parentNode.querySelector(".counter").innerHTML = 	timeCalc(this.video.currentTime) + "/" + timeCalc(this.video.duration);
-            }
-        }
-
-        _createElement(tag, attrs, content) {
-            let el = document.createElement(tag);
-            if (attrs) { Object.keys(attrs).forEach((attr) => el.setAttribute(attr==="className"?"class":attr, attrs[attr])); }
-            if (content) {
-                if (Array.isArray(content)) {
-                    content.forEach((item) => el.appendChild(item));
-                } else {
-                    el.innerHTML = content;
-                }
-            }
-
-            return el;
-        }
-
-        _debounce(func, timeout = 2000) {
-            let timer;
-            return (...args) => {
-                clearTimeout(timer);
-                timer = setTimeout(() => {
-                    func.apply(this, args);
-                }, timeout);
-            };
-        }
-
-        _drawProgress(canvas, buffered, duration) {
-            const context = canvas.getContext('2d', {antialias: false});
-            context.fillStyle = '#F464534C';
-
-            const width = canvas.width;
-            const height = canvas.height;
-            if (!width || !height) throw "Canvas's width or height weren't set!";
-            context.clearRect(0, 0, width, height); // clear canvas
-
-            for (let i = 0; i < buffered.length; i++) {
-                const leadingEdge = buffered.start(i) / duration * width;
-                const trailingEdge = buffered.end(i) / duration * width;
-                context.fillRect(leadingEdge, 0, trailingEdge - leadingEdge, height);
-            }
-        }
-
-        playToggle() {
-            if (this.video.paused) {
-                this.video.classList.add("playing");
-                this.video.play();
-
-                if (this.video.preload !== "auto") {
-                    this.video.preload = "auto";
-                }
-
-                this.video.focus();
-            } else {
-                this.video.classList.remove("playing");
-                this.video.pause();
-            }
-        }
-
+        this.video.focus();
+      } else {
+        this.video.classList.remove("playing");
+        this.video.pause();
+      }
     }
-    if(typeof module !== 'undefined') {
-        module.exports = Playa;
-    }
-    window.Playa = Playa;
-})();
+  }]);
 
-},{}]},{},[1]);
+  return defaultPlayer;
+}();
+
+if (typeof module !== 'undefined') {
+  module.exports = Playa;
+}
+
+window.Playa = Playa;
+
+},{}],8:[function(require,module,exports){
+module.exports={"v":"5.7.12","fr":60,"ip":0,"op":80,"w":800,"h":800,"nm":"infinityLoop","ddd":0,"assets":[{"id":"comp_0","nm":"Comp 1","layers":[{"ddd":0,"ind":1,"ty":4,"nm":"Shape Layer 6","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[540,540,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-54.088,-54.088],[0,0],[54.088,-54.088],[0,0],[54.087,54.088],[0,0],[54.088,-54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0]],"o":[[0,0],[54.087,-54.088],[0,0],[54.088,54.088],[0,0],[-54.088,54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0],[54.088,54.088],[0,0],[0,0]],"v":[[0.931,-0.931],[97.934,-97.934],[293.803,-97.934],[293.803,-97.934],[293.803,97.934],[293.803,97.934],[97.934,97.934],[-97.934,-97.934],[-293.803,-97.934],[-293.803,-97.934],[-293.803,97.934],[-293.803,97.934],[-97.934,97.934],[-0.993,0.993]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"tm","s":{"a":0,"k":60,"ix":1},"e":{"a":0,"k":75,"ix":2},"o":{"a":1,"k":[{"i":{"x":[0.391],"y":[1]},"o":{"x":[0.362],"y":[0]},"t":0,"s":[180]},{"t":80,"s":[540]}],"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"st","c":{"a":0,"k":[1,0.9372549019607843,0.21176470588235294,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":50,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":120.12109375,"st":0,"bm":0},{"ddd":0,"ind":2,"ty":4,"nm":"Shape Layer 1","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[540,540,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-54.088,-54.088],[0,0],[54.088,-54.088],[0,0],[54.087,54.088],[0,0],[54.088,-54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0]],"o":[[0,0],[54.087,-54.088],[0,0],[54.088,54.088],[0,0],[-54.088,54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0],[54.088,54.088],[0,0],[0,0]],"v":[[0.931,-0.931],[97.934,-97.934],[293.803,-97.934],[293.803,-97.934],[293.803,97.934],[293.803,97.934],[97.934,97.934],[-97.934,-97.934],[-293.803,-97.934],[-293.803,-97.934],[-293.803,97.934],[-293.803,97.934],[-97.934,97.934],[-0.993,0.993]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"tm","s":{"a":0,"k":70,"ix":1},"e":{"a":0,"k":80,"ix":2},"o":{"a":1,"k":[{"i":{"x":[0.391],"y":[1]},"o":{"x":[0.362],"y":[0]},"t":0,"s":[180]},{"t":80,"s":[540]}],"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"st","c":{"a":0,"k":[1,0.681799316406,0.180392141903,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":50,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":122.12109375,"st":2,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"Shape Layer 3","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[540,540,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-54.088,-54.088],[0,0],[54.088,-54.088],[0,0],[54.087,54.088],[0,0],[54.088,-54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0]],"o":[[0,0],[54.087,-54.088],[0,0],[54.088,54.088],[0,0],[-54.088,54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0],[54.088,54.088],[0,0],[0,0]],"v":[[0.931,-0.931],[97.934,-97.934],[293.803,-97.934],[293.803,-97.934],[293.803,97.934],[293.803,97.934],[97.934,97.934],[-97.934,-97.934],[-293.803,-97.934],[-293.803,-97.934],[-293.803,97.934],[-293.803,97.934],[-97.934,97.934],[-0.993,0.993]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"tm","s":{"a":0,"k":70,"ix":1},"e":{"a":0,"k":85,"ix":2},"o":{"a":1,"k":[{"i":{"x":[0.391],"y":[1]},"o":{"x":[0.362],"y":[0]},"t":0,"s":[180]},{"t":80,"s":[540]}],"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"st","c":{"a":0,"k":[1,0.28627450980392155,0.26666666666666666,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":50,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":124.12109375,"st":4,"bm":0},{"ddd":0,"ind":4,"ty":4,"nm":"Shape Layer 4","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[540,540,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-54.088,-54.088],[0,0],[54.088,-54.088],[0,0],[54.087,54.088],[0,0],[54.088,-54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0]],"o":[[0,0],[54.087,-54.088],[0,0],[54.088,54.088],[0,0],[-54.088,54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0],[54.088,54.088],[0,0],[0,0]],"v":[[0.931,-0.931],[97.934,-97.934],[293.803,-97.934],[293.803,-97.934],[293.803,97.934],[293.803,97.934],[97.934,97.934],[-97.934,-97.934],[-293.803,-97.934],[-293.803,-97.934],[-293.803,97.934],[-293.803,97.934],[-97.934,97.934],[-0.993,0.993]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"tm","s":{"a":0,"k":70,"ix":1},"e":{"a":0,"k":90,"ix":2},"o":{"a":1,"k":[{"i":{"x":[0.391],"y":[1]},"o":{"x":[0.362],"y":[0]},"t":0,"s":[180]},{"t":80,"s":[540]}],"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"st","c":{"a":0,"k":[1,0.20784313725490197,0.7215686274509804,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":50,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":126.12109375,"st":6,"bm":0},{"ddd":0,"ind":5,"ty":4,"nm":"Shape Layer 5","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[540,540,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-54.088,-54.088],[0,0],[54.088,-54.088],[0,0],[54.087,54.088],[0,0],[54.088,-54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0]],"o":[[0,0],[54.087,-54.088],[0,0],[54.088,54.088],[0,0],[-54.088,54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0],[54.088,54.088],[0,0],[0,0]],"v":[[0.931,-0.931],[97.934,-97.934],[293.803,-97.934],[293.803,-97.934],[293.803,97.934],[293.803,97.934],[97.934,97.934],[-97.934,-97.934],[-293.803,-97.934],[-293.803,-97.934],[-293.803,97.934],[-293.803,97.934],[-97.934,97.934],[-0.993,0.993]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"tm","s":{"a":0,"k":70,"ix":1},"e":{"a":0,"k":95,"ix":2},"o":{"a":1,"k":[{"i":{"x":[0.391],"y":[1]},"o":{"x":[0.362],"y":[0]},"t":0,"s":[180]},{"t":80,"s":[540]}],"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"st","c":{"a":0,"k":[0.3568627450980392,0.2549019607843137,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":50,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"st","c":{"a":0,"k":[0.3568627450980392,0.2549019607843137,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":50,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 2","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":4,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":128.12109375,"st":8,"bm":0},{"ddd":0,"ind":6,"ty":4,"nm":"Shape Layer 2","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[540,540,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-54.088,-54.088],[0,0],[54.088,-54.088],[0,0],[54.087,54.088],[0,0],[54.088,-54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0]],"o":[[0,0],[54.087,-54.088],[0,0],[54.088,54.088],[0,0],[-54.088,54.088],[0,0],[-54.088,-54.088],[0,0],[-54.088,54.088],[0,0],[54.088,54.088],[0,0],[0,0]],"v":[[0.931,-0.931],[97.934,-97.934],[293.803,-97.934],[293.803,-97.934],[293.803,97.934],[293.803,97.934],[97.934,97.934],[-97.934,-97.934],[-293.803,-97.934],[-293.803,-97.934],[-293.803,97.934],[-293.803,97.934],[-97.934,97.934],[-0.993,0.993]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"tm","s":{"a":0,"k":70,"ix":1},"e":{"a":0,"k":100,"ix":2},"o":{"a":1,"k":[{"i":{"x":[0.391],"y":[1]},"o":{"x":[0.362],"y":[0]},"t":0,"s":[180]},{"t":80,"s":[540]}],"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"st","c":{"a":0,"k":[0.3137254901960784,0.8901960784313725,0.7607843137254902,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":50,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"st","c":{"a":0,"k":[0.3137254901960784,0.8901960784313725,0.7607843137254902,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":50,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 2","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":4,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":130.12109375,"st":10,"bm":0}]}],"layers":[{"ddd":0,"ind":1,"ty":4,"nm":"line 2","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[400,400,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[59.849,59.85],[59.85,-59.85],[0,0],[0,0],[59.85,-59.851],[-59.85,-59.85],[-39.308,0],[-29.925,29.925],[0,0],[0,0],[-59.849,59.848]],"o":[[-59.849,-59.85],[0,0],[0,0],[-59.849,-59.849],[-59.85,59.85],[29.925,29.925],[39.308,0],[0,0],[0,0],[59.85,59.85],[59.849,-59.85]],"v":[[304.41,-108.541],[87.328,-108.541],[0.001,-21.212],[-87.328,-108.541],[-304.409,-108.54],[-304.409,108.542],[-195.868,153.428],[-87.328,108.542],[0.001,21.214],[87.328,108.542],[304.41,108.542]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"tm","s":{"a":0,"k":0,"ix":1},"e":{"a":0,"k":5,"ix":2},"o":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[90]},{"t":80,"s":[450]}],"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":10,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":81,"st":0,"bm":0},{"ddd":0,"ind":2,"ty":4,"nm":"line","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[400,400,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[59.849,59.85],[59.85,-59.85],[0,0],[0,0],[59.85,-59.851],[-59.85,-59.85],[-39.308,0],[-29.925,29.925],[0,0],[0,0],[-59.849,59.848]],"o":[[-59.849,-59.85],[0,0],[0,0],[-59.849,-59.849],[-59.85,59.85],[29.925,29.925],[39.308,0],[0,0],[0,0],[59.85,59.85],[59.849,-59.85]],"v":[[304.41,-108.541],[87.328,-108.541],[0.001,-21.212],[-87.328,-108.541],[-304.409,-108.54],[-304.409,108.542],[-195.868,153.428],[-87.328,108.542],[0.001,21.214],[87.328,108.542],[304.41,108.542]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"tm","s":{"a":0,"k":0,"ix":1},"e":{"a":0,"k":5,"ix":2},"o":{"a":1,"k":[{"i":{"x":[0.833],"y":[0.833]},"o":{"x":[0.167],"y":[0.167]},"t":0,"s":[0]},{"t":80,"s":[360]}],"ix":3},"m":1,"ix":2,"nm":"Trim Paths 1","mn":"ADBE Vector Filter - Trim","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":10,"ix":5},"lc":2,"lj":2,"bm":0,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":3,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":81,"st":0,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"Shape Layer 3","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[400,400,0],"ix":2,"l":2},"a":{"a":0,"k":[0,0,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"d":1,"ty":"el","s":{"a":0,"k":[50,50],"ix":2},"p":{"a":0,"k":[0,0],"ix":3},"nm":"Ellipse Path 1","mn":"ADBE Vector Shape - Ellipse","hd":false},{"ty":"fl","c":{"a":0,"k":[0.298039227724,0.298039227724,0.298039227724,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Ellipse 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":81,"st":0,"bm":0},{"ddd":0,"ind":4,"ty":4,"nm":"Shape Layer 1","td":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[362.958,402,0],"ix":2,"l":2},"a":{"a":0,"k":[-173.042,0,0],"ix":1,"l":2},"s":{"a":0,"k":[120,120,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-54.088,-54.088],[0,0],[54.088,-54.088],[0,0],[54.088,54.087]],"o":[[0,0],[54.088,-54.088],[0,0],[54.088,54.088],[0,0],[-54.088,54.087],[0,0]],"v":[[-173.042,-1.806],[-76.914,-97.934],[118.955,-97.934],[118.955,-97.934],[118.955,97.934],[118.955,97.934],[-76.914,97.934]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.847059011459,0.117646999657,0.22352899611,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":81,"st":0,"bm":0},{"ddd":0,"ind":5,"ty":0,"nm":"Comp 1","tt":1,"refId":"comp_0","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[400,400,0],"ix":2,"l":2},"a":{"a":0,"k":[540,540,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"w":1080,"h":1080,"ip":0,"op":81,"st":0,"bm":0},{"ddd":0,"ind":6,"ty":4,"nm":"Shape Layer 2","td":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":180,"ix":10},"p":{"a":0,"k":[435.958,399,0],"ix":2,"l":2},"a":{"a":0,"k":[-173.042,0,0],"ix":1,"l":2},"s":{"a":0,"k":[120,120,100],"ix":6,"l":2}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-54.088,-54.088],[0,0],[54.088,-54.088],[0,0],[54.088,54.087]],"o":[[0,0],[54.088,-54.088],[0,0],[54.088,54.088],[0,0],[-54.088,54.087],[0,0]],"v":[[-173.042,-1.806],[-76.914,-97.934],[118.955,-97.934],[118.955,-97.934],[118.955,97.934],[118.955,97.934],[-76.914,97.934]],"c":false},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[0.847059011459,0.117646999657,0.22352899611,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"bm":0,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[0,0],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Shape 1","np":2,"cix":2,"bm":0,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":81,"st":0,"bm":0},{"ddd":0,"ind":7,"ty":0,"nm":"Comp 1","tt":1,"refId":"comp_0","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":180,"ix":10},"p":{"a":0,"k":[400,400,0],"ix":2,"l":2},"a":{"a":0,"k":[540,540,0],"ix":1,"l":2},"s":{"a":0,"k":[100,100,100],"ix":6,"l":2}},"ao":0,"w":1080,"h":1080,"ip":0,"op":81,"st":0,"bm":0}],"markers":[]}
+},{}]},{},[6]);

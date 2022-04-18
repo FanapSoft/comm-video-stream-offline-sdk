@@ -1,4 +1,4 @@
-(function() {
+
     const prefix = ['','moz', 'webkit', 'ms'].find((p) => !p ? ('fullscreenElement' in document) : (p + 'FullScreenElement' in document));
 
     const fullScreen = {
@@ -343,4 +343,3 @@
         module.exports = Playa;
     }
     window.Playa = Playa;
-})();
