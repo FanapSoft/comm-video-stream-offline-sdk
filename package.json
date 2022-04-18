@@ -1,6 +1,6 @@
 {
-  "name": "pod-com-offline-sdk",
-  "version": "3.5.0",
+  "name": "pod-comm-offline-sdk",
+  "version": "1.0.0",
   "description": "",
   "main": "./dist/node/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "build": "npm run build:browser && npm run build:npm",
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish:release": "npm run version:release && npm publish",
-    "version:release": "npm version 3.5.0"
+    "version:release": "npm version 1.0.0"
   },
   "keywords": [],
   "author": "",
