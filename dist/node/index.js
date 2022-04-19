@@ -68,7 +68,8 @@ var requestsList = [],
     quality = params.quality || 240,
     containerId = params.containerId,
     domElements = {},
-    playaVideo;
+    playaVideo,
+    isSeeking = false;
 
 SDK.playMedia = function (params) {
   hash = params.hash;
@@ -114,13 +115,13 @@ SDK.destroyVideo = function () {
 SDK.logBuffered = function () {
   try {
     var ranges = sourceBuffer.buffered;
-    logging.debug && console.debug("BUFFERED RANGES: " + ranges.length);
+    logging.debug && console.debug("[SDK] BUFFERED RANGES: " + ranges.length);
 
     for (var i = 0, len = ranges.length; i < len; i += 1) {
-      logging.debug && console.debug("RANGE: " + ranges.start(i) + " - " + ranges.end(i));
+      logging.debug && console.debug("[SDK] RANGE: " + ranges.start(i) + " - " + ranges.end(i));
     }
   } catch (e) {
-    logging.error && console.error("log error" + e);
+    logging.error && console.error("[SDK] log error" + e);
   }
 };
 
@@ -130,14 +131,13 @@ function createElements() {
   domElements.container.setAttribute('class', "stream-video-container");
   domElements.container.setAttribute('id', "stream-video-container");
   domElements.container.style.position = "relative";
-  domElements.video = document.createElement("video"); //document.querySelector("#myVideoTag") //= document.createElement("video")
-
+  domElements.video = document.createElement("video");
   domElements.video.setAttribute('playsinline', '');
   domElements.video.setAttribute('id', "stream-video-tag");
-  domElements.video.setAttribute('class', "stream-video-tag"); // domElements.video.setAttribute('autoplay', "");
-
+  domElements.video.setAttribute('class', "stream-video-tag");
   domElements.video.setAttribute('time', "0");
   domElements.video.setAttribute('preload', "auto");
+  domElements.video.style.width = '100%';
   domElements.loader = document.createElement("lottie-player");
   domElements.loader.setAttribute('class', "stream-loading lottie-loading hidden");
   domElements.loader.setAttribute('id', "stream-loading");
@@ -228,7 +228,7 @@ function register() {
   var registerAgain = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
   var segment = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : currentSegment;
   (0, _jquery["default"])(".selected-quality").html(quality);
-  logging.info && console.info("register start");
+  logging.info && console.info("[SDK] register start");
   var ajaxTime = new Date().getTime();
   setLoading(true);
   abortRecentRequests();
@@ -248,15 +248,15 @@ function register() {
     success: function success(response, status, xhr) {
       // success callback function
       var totalTime = new Date().getTime() - ajaxTime;
-      logging.info && console.info("register response after: " + totalTime);
+      logging.info && console.info("[SDK] register response after: " + totalTime);
       logging.info && console.info(response);
       setLoading(false);
       consumeLink = response.consumLink;
       produceLink = response.produceLink;
       refreshLink = response.refreshLink;
-      logging.info && console.info("consumeLink:" + response.consumLink);
-      logging.info && console.info("produceLink: " + response.produceLink);
-      logging.info && console.info("refreshLink: " + response.refreshLink);
+      logging.info && console.info("[SDK] consumeLink:" + response.consumLink);
+      logging.info && console.info("[SDK] produceLink: " + response.produceLink);
+      logging.info && console.info("[SDK] refreshLink: " + response.refreshLink);
       logging.info && console.info("total-segment-count:" + totalSegmentCount, "segment-duration-seconds: " + segmentDuration, "mimeCodec: " + mimeCodec);
 
       if (!registerAgain) {
@@ -266,7 +266,7 @@ function register() {
           console.log(error);
         });
       } else {
-        logging.info && console.info("SEEKING IN REGISTER");
+        logging.info && console.info("[SDK] SEEKING IN REGISTER");
         seekToSegment(segment);
       }
     },
@@ -290,14 +290,12 @@ function seek() {
     var serverSeekSegment = getServerSeekSegment();
     seekToSegment(serverSeekSegment);
     domElements.video.play();
-  }, 1000);
+  }, 1500);
 }
-
-var isSeeking = false;
 
 function seekToSegment(segment) {
   isSeeking = true;
-  logging.info && console.info("seeking to segment: " + segment);
+  logging.info && console.info("[SDK] seeking to segment: " + segment);
   segment = Math.min(segment, totalSegmentCount);
   var url = produceLink + "?segment=" + segment;
 
@@ -315,7 +313,7 @@ function seekToSegment(segment) {
     success: function success(response, status, xhr) {
       isSeeking = false;
       currentSegment = segment - 1;
-      logging.info && console.info("seeking to segment done response: " + response);
+      logging.info && console.info("[SDK] seeking to segment done response: " + response);
       pause = false;
       requestsList.splice(requestsList.indexOf(seekRequest), 1);
     },
@@ -348,11 +346,11 @@ function nextSegment() {
       var calculatedSegment = getServerSeekSegment();
 
       if (calculatedSegment >= totalSegmentCount || checkBufferedTime(calculatedSegment * (segmentDuration / 1000), (calculatedSegment + 1) * segmentDuration / 1000)) {
-        logging.info && console.info("in buffered");
+        logging.info && console.info("[SDK] in buffered");
         currentSegment = calculatedSegment - 1;
       } else if (calculatedSegment < totalSegmentCount) {
         if (requestsList.length === 0) {
-          logging.debug && console.debug("segment" + currentSegment + " read by cache buffer");
+          logging.debug && console.debug("[SDK] segment" + currentSegment + " read by cache buffer");
           pause = true;
           abortRecentRequests();
           seekToSegment(calculatedSegment);
@@ -388,8 +386,8 @@ function getServerSeekSegment() {
       var endI = Math.ceil(ranges.end(i));
 
       if (ranges.start(i) <= currentTime && currentTime <= endI) {
-        logging.debug && console.debug("FIND IN RANGE :  " + ranges.start(i) + " : " + endI);
-        logging.debug && console.debug("FIND SEGMENT : " + Math.max(parseInt(Math.floor(Math.floor(endI) / (segmentDuration / 1000))), 0));
+        logging.debug && console.debug("[SDK] FIND IN RANGE :  " + ranges.start(i) + " : " + endI);
+        logging.debug && console.debug("[SDK] FIND SEGMENT : " + Math.max(parseInt(Math.floor(Math.floor(endI) / (segmentDuration / 1000))), 0));
         return Math.max(parseInt(Math.floor(Math.floor(endI) / (segmentDuration / 1000))), 0) + 1;
       }
     }
@@ -403,7 +401,7 @@ function getServerSeekSegment() {
 function fetchArrayBuffer(segment) {
   var ajaxTime = new Date().getTime();
   logging.info && console.info(consumeLink, "segment :" + segment);
-  logging.info && console.info("start to fetch bytes for segment: " + segment);
+  logging.info && console.info("[SDK] start to fetch bytes for segment: " + segment);
   currentRequestNumber += 1;
 
   var consumeReq = _jquery["default"].ajax(consumeLink, {
@@ -466,7 +464,7 @@ function changeQuality(quality) {
   var url = produceLink + "?quality=" + quality + "&segment=0";
   var seekSegment = Math.floor(domElements.video.currentTime / (parseInt(segmentDuration) / 1000));
   var ajaxTime = new Date().getTime();
-  logging.info && console.info("seeking : " + url);
+  logging.info && console.info("[SDK] seeking : " + url);
 
   _jquery["default"].ajax(url, {
     headers: {
@@ -480,7 +478,7 @@ function changeQuality(quality) {
     success: function success() {
       (0, _jquery["default"])(".selected-quality").html(quality);
       var totalTime = new Date().getTime() - ajaxTime;
-      logging.info && console.info("response for seeking totalTime: " + totalTime);
+      logging.info && console.info("[SDK] response for seeking totalTime: " + totalTime);
       removeBuffered();
       currentSegment = 0;
       fetchArrayBuffer(currentSegment);
@@ -490,7 +488,7 @@ function changeQuality(quality) {
       fetchArrayBuffer(currentSegment);
       var seekIntVal = setInterval(function () {
         if (checkBufferedTime(0, 2 * segmentDuration / 1000)) {
-          logging.info && console.log("seek start data has buffered");
+          logging.info && console.log("[SDK] seek start data has buffered");
           seekToSegment(seekSegment);
           domElements.video.play();
           clearInterval(seekIntVal);
@@ -507,12 +505,12 @@ function changeQuality(quality) {
 
 function checkBufferedTime(begin, end) {
   try {
-    logging.info && console.log("checked buffered start:" + begin + "end :" + end);
+    logging.info && console.log("[SDK] checked buffered start:" + begin + "end :" + end);
     var ranges = sourceBuffer.buffered;
 
     for (var i = 0, len = ranges.length; i < len; i += 1) {
       var endI = String(ranges.end(i)).includes(".999999") ? parseFloat(ranges.end(i)) + 0.000001 : ranges.end(i);
-      logging.info && console.log("seek start" + ranges.start(i) + " end :" + endI);
+      logging.info && console.log("[SDK] seek start" + ranges.start(i) + " end :" + endI);
       if (ranges.start(i) <= begin && end <= Math.ceil(endI)) return true;
     }
 
@@ -560,7 +558,7 @@ function refreshStream() {
       json: "application/json"
     },
     success: function success(response) {
-      logging.info && console.info("refresh done");
+      logging.info && console.info("[SDK] refresh done");
     },
     error: function error(jqXhr, textStatus, errorMessage) {
       logging.error && console.error(errorMessage);
@@ -572,7 +570,7 @@ function changeHashFile(hashFile, token, quality) {
   pause = true;
   domElements.video.pause();
   var url = produceLink + "?quality=" + quality + "&hashFile=" + hashFile;
-  logging.info && console.info("changeHashFile : " + url);
+  logging.info && console.info("[SDK] changeHashFile : " + url);
 
   _jquery["default"].ajax(url, {
     headers: {
@@ -585,11 +583,11 @@ function changeHashFile(hashFile, token, quality) {
     },
     success: function success(response) {
       (0, _jquery["default"])(".selected-quality").html(quality);
-      logging.info && console.info("changing hashFile done");
+      logging.info && console.info("[SDK] changing hashFile done");
       hash = hashFile;
       startPlayingVideo(false);
       setTimeout(function () {
-        logging.info && console.log("changeHashFile", response);
+        logging.info && console.log("[SDK] changeHashFile", response);
         initManifestData(response.manifest + "");
         initSourceBuffer();
         domElements.video.currentTime = 0;
@@ -631,9 +629,9 @@ function initManifestData(manifest) {
 
 function initSourceBuffer() {
   sourceBuffer = mediaSource.addSourceBuffer(mimeCodec);
-  logging.info && console.info("MediaSource support mimeCodec: " + MediaSource.isTypeSupported(mimeCodec));
+  logging.info && console.info("[SDK] MediaSource support mimeCodec: " + MediaSource.isTypeSupported(mimeCodec));
   sourceBuffer.addEventListener("error", function (ev) {
-    logging.error && console.error("error to update buffer:" + ev);
+    logging.error && console.error("[SDK] error to update buffer:" + ev);
   });
   createFetchingInterval();
 }

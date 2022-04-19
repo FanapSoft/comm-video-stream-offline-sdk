@@ -124,13 +124,13 @@ function createElements() {
     domElements.container.setAttribute('id', "stream-video-container");
     domElements.container.style.position = "relative";
 
-    domElements.video = document.createElement("video")//document.querySelector("#myVideoTag") //= document.createElement("video")
+    domElements.video = document.createElement("video")
     domElements.video.setAttribute('playsinline', '');
     domElements.video.setAttribute('id', "stream-video-tag");
     domElements.video.setAttribute('class', "stream-video-tag");
-    // domElements.video.setAttribute('autoplay', "");
     domElements.video.setAttribute('time', "0");
     domElements.video.setAttribute('preload', "auto");
+    domElements.video.style.width = '100%';
 
     domElements.loader = document.createElement("lottie-player");
     domElements.loader.setAttribute('class', "stream-loading lottie-loading hidden");
