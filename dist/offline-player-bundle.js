@@ -11248,10 +11248,8 @@ function startPlayingVideo(callRegister) {
     if (callRegister) register();
   });
   domElements.video.addEventListener("seeking", function (event) {
-    if (!pause) {
-      pause = true;
-      seek();
-    }
+    pause = true;
+    seek();
   });
   domElements.video.addEventListener("timeupdate", function () {
     if (!pause) setLoading(false);
@@ -11333,22 +11331,22 @@ function register() {
 function seek() {
   domElements.video.pause();
 
-  if (seekingSetTimeout != null) {
+  if (seekingSetTimeout) {
     clearTimeout(seekingSetTimeout);
-    seekingSetTimeout = null;
+    abortRecentRequests();
   }
 
   seekingSetTimeout = setTimeout(function () {
-    // const currentPlayingSegment = Math.max(parseInt(Math.floor(Math.floor(video.currentTime) / (segmentDuration / 1000))), 0);
-    // video.currentTime = currentPlayingSegment * (segmentDuration / 1000);
     var serverSeekSegment = getServerSeekSegment();
     seekToSegment(serverSeekSegment);
     domElements.video.play();
-  }, 500);
+  }, 1000);
 }
 
+var isSeeking = false;
+
 function seekToSegment(segment) {
-  abortRecentRequests();
+  isSeeking = true;
   logging.info && console.info("seeking to segment: " + segment);
   segment = Math.min(segment, totalSegmentCount);
   var url = produceLink + "?segment=" + segment;
@@ -11365,6 +11363,7 @@ function seekToSegment(segment) {
       json: "application/json"
     },
     success: function success(response, status, xhr) {
+      isSeeking = false;
       currentSegment = segment - 1;
       logging.info && console.info("seeking to segment done response: " + response);
       pause = false;
@@ -11376,7 +11375,8 @@ function seekToSegment(segment) {
       }
     },
     error: function error(jqXhr, textStatus, errorMessage) {
-      // error callback
+      isSeeking = false; // error callback
+
       requestsList.splice(requestsList.indexOf(seekRequest), 1);
       logging.error && console.error(errorMessage);
       pause = false;
@@ -11387,6 +11387,7 @@ function seekToSegment(segment) {
 }
 
 function nextSegment() {
+  if (isSeeking) return;
   currentSegment = Math.max(currentSegment, -1);
 
   if (currentSegment <= totalSegmentCount - 1) {
@@ -11403,6 +11404,7 @@ function nextSegment() {
         if (requestsList.length === 0) {
           logging.debug && console.debug("segment" + currentSegment + " read by cache buffer");
           pause = true;
+          abortRecentRequests();
           seekToSegment(calculatedSegment);
         }
       }
@@ -11427,23 +11429,25 @@ function checkBuffered(segment) {
 }
 
 function getServerSeekSegment() {
+  var currentTime = domElements.video.currentTime;
+
   try {
     var ranges = sourceBuffer.buffered;
 
     for (var i = 0, len = ranges.length; i < len; i += 1) {
       var endI = Math.ceil(ranges.end(i));
 
-      if (ranges.start(i) <= domElements.video.currentTime && domElements.video.currentTime <= endI) {
+      if (ranges.start(i) <= currentTime && currentTime <= endI) {
         logging.debug && console.debug("FIND IN RANGE :  " + ranges.start(i) + " : " + endI);
         logging.debug && console.debug("FIND SEGMENT : " + Math.max(parseInt(Math.floor(Math.floor(endI) / (segmentDuration / 1000))), 0));
         return Math.max(parseInt(Math.floor(Math.floor(endI) / (segmentDuration / 1000))), 0) + 1;
       }
     }
   } catch (e) {
-    return Math.max(parseInt(Math.floor(Math.floor(domElements.video.currentTime) / (segmentDuration / 1000))), 0) + 1;
+    return Math.max(parseInt(Math.floor(Math.floor(currentTime) / (segmentDuration / 1000))), 0) + 1;
   }
 
-  return Math.max(parseInt(Math.floor(Math.floor(domElements.video.currentTime) / (segmentDuration / 1000))), 0) + 1;
+  return Math.max(parseInt(Math.floor(Math.floor(currentTime) / (segmentDuration / 1000))), 0) + 1;
 }
 
 function fetchArrayBuffer(segment) {
