@@ -1,6 +1,6 @@
 {
   "name": "pod-comm-offline-sdk",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "./dist/node/index.js",
   "scripts": {
