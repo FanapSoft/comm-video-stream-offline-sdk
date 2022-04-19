@@ -160,7 +160,7 @@ function resetParameters() {
     segmentDuration = 0;
     consumeLink = "";
     produceLink = "";
-    refreshLink = "";
+    refreshLink = null;
     currentSegment = -1;
     pause = false;
     if (fetchingIntervalStart != null) {
@@ -539,12 +539,12 @@ function createFetchingInterval() {
             }
         }, 500);
     }
-    if (refreshInterval == null) {
+    if (refreshLink && !refreshInterval) {
         refreshInterval = setInterval(() => {
             if (refreshLink.length > 0) {
                 refreshStream()
             }
-        }, 1000 * 60 * 5);
+        }, 1000 * 20 * 5);
     }
 }
 
