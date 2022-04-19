@@ -695,7 +695,7 @@ function  SDKInit(parameters) {
 if(typeof window !== "undefined") {
     if(!window.POD)
         window.POD = {};
-    window.POD.OFFLINEPLAYERSDK = SDKInit
+    window.POD.OfflinePlayerSDK = SDKInit
 }
 
 export default SDKInit;
